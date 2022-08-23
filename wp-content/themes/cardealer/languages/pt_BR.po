@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Car Dealer 3.4.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
 "POT-Creation-Date: 2021-10-11 11:33+0530\n"
-"PO-Revision-Date: 2022-08-23 00:44+0000\n"
+"PO-Revision-Date: 2022-08-23 17:52+0000\n"
 "Last-Translator: \n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -1693,7 +1693,7 @@ msgstr ""
 
 #: includes/cars_functions.php:3755
 msgid "Next &rarr;"
-msgstr ""
+msgstr "Próximo &rarr;"
 
 #: includes/cars_functions.php:4052
 msgid "Next (arrow right)"

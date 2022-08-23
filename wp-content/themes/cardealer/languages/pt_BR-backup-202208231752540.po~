@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Car Dealer 3.4.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
 "POT-Creation-Date: 2021-10-11 11:33+0530\n"
-"PO-Revision-Date: 2022-08-09 16:13+0000\n"
+"PO-Revision-Date: 2022-08-23 00:44+0000\n"
 "Last-Translator: \n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -838,11 +838,11 @@ msgstr ""
 
 #: includes/cars_functions.php:204
 msgid "Detail"
-msgstr ""
+msgstr "Detalhes"
 
 #: template-parts/cars/layout/list-view.php:80
 msgid "Details"
-msgstr ""
+msgstr "Detalhes"
 
 #: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:408
 msgid "Dismiss this notice"
@@ -2449,7 +2449,7 @@ msgstr ""
 
 #: template-parts/cars/single-car/share.php:28
 msgid "Share :"
-msgstr ""
+msgstr "Compartilhar Veículo : "
 
 #: includes/template-functions.php:396
 msgid ""
@@ -3347,7 +3347,7 @@ msgstr ""
 
 #: includes/cars_functions.php:112 includes/cars_functions.php:204
 msgid "View"
-msgstr ""
+msgstr "Ver"
 
 #: template-parts/blog-extra/author-info.php:23
 #: template-parts/entry_meta.php:63 template-parts/search/entry_meta.php:46

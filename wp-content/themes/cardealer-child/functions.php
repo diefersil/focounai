@@ -25,15 +25,15 @@ add_action( 'wp_enqueue_scripts', function() {
     }, 999, 1 );
 }*/
 
-wp_reset_query();
-if( is_page() ){
-    if ( ! function_exists( 'cardealer_list_car_link_title' ) ) {
+//----------------------------------------------------------------wp_reset_query();
+//if( is_page() ){
+    /*if ( ! function_exists( 'cardealer_list_car_link_title' ) ) {
         function cardealer_list_car_link_title() {
             $year = get_the_terms(get_the_ID(), 'car_year' );
             echo '<a href="' . esc_url( get_the_permalink() ) . '">' . esc_attr( get_the_title() ) . '<br/>' . $year[0]->name . '</a>';
         }
-    }
-}
+    }*/
+//}
 
 /*function cardealer_vehicle_title() {
     global $car_dealer_options;
@@ -58,5 +58,17 @@ if( is_page() ){
     }
 }*/
 
+
+   /* add_filter('cardealer_classic_list_car_title', 'teste');
+    function teste($titulo){
+        $titulo = NULL;
+       return $titulo;
+        
+    }
+
+
+    function cardealer_classic_list_car_title(){
+        echo 'teste';
+    }*/
 
 
