@@ -1,0 +1,548 @@
+0000.001 (0) Opened log file at time: Wed, 01 Dec 2021 15:04:03 +0000 on http://localhost/xampp/foco2022
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.66 WP: 5.8.2 PHP: 8.0.6 (apache2handler, Windows NT PCKOMOR 10.0 build 19043 (Windows 10) AMD64) MySQL: 10.4.19-MariaDB (max packet size=1048576) WPLANG: pt_BR Server: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 76.5M | 8M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 104596.2 MB
+0000.015 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.024 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.034 (0) Set semaphore last lock (fd) time to 2021-12-01 15:04:03
+0000.037 (0) Semaphore lock (fd) complete
+0000.045 (0) Backup run: resumption=0, nonce=0802674f80f3, file_nonce=0802674f80f3 begun at=1638371043 (0s ago), job type=backup
+0000.052 (0) Scheduling a resumption (1) after 300 seconds (1638371343) in case this run gets aborted
+0000.070 (0) Checking if we have a zip executable available
+0000.082 (0) Creation of backups of directories: beginning
+0000.095 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.590 (0) Total entities for the zip file: 1544 directories, 8717 files (0 skipped as non-modified), 138.4 MB
+0003.594 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3796, D:\xampp\htdocs\xampp\foco2022\wp-content\plugins\updraftplus\backup.php)
+0003.601 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0003.739 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 100 files added (on-disk size: 281.3 KB)
+0003.786 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 200 files added (on-disk size: 281.3 KB)
+0003.831 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 300 files added (on-disk size: 281.3 KB)
+0003.874 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 400 files added (on-disk size: 281.3 KB)
+0003.916 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 500 files added (on-disk size: 281.3 KB)
+0003.962 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 600 files added (on-disk size: 281.3 KB)
+0004.009 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 700 files added (on-disk size: 281.3 KB)
+0004.052 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 800 files added (on-disk size: 281.3 KB)
+0004.095 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 900 files added (on-disk size: 281.3 KB)
+0004.138 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 1000 files added (on-disk size: 281.3 KB)
+0004.144 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.5 MB, 8717 files batched, 1001 (1002) added so far); re-opening (prior size: 281.3 KB)
+0005.794 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 1100 files added (on-disk size: 6505.3 KB)
+0005.845 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 1200 files added (on-disk size: 6505.3 KB)
+0005.898 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 1300 files added (on-disk size: 6505.3 KB)
+0005.944 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 1400 files added (on-disk size: 6505.3 KB)
+0005.990 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 1500 files added (on-disk size: 6505.3 KB)
+0006.031 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 1600 files added (on-disk size: 6505.3 KB)
+0006.076 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 1700 files added (on-disk size: 6505.3 KB)
+0006.120 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 1800 files added (on-disk size: 6505.3 KB)
+0006.174 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 1900 files added (on-disk size: 6505.3 KB)
+0006.226 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 2000 files added (on-disk size: 6505.3 KB)
+0006.232 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22 MB, 8717 files batched, 1001 (2003) added so far); re-opening (prior size: 6505.3 KB)
+0007.976 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 2100 files added (on-disk size: 13382.3 KB)
+0008.025 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 2200 files added (on-disk size: 13382.3 KB)
+0008.077 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 2300 files added (on-disk size: 13382.3 KB)
+0008.125 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 2400 files added (on-disk size: 13382.3 KB)
+0008.176 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 2500 files added (on-disk size: 13382.3 KB)
+0008.226 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 2600 files added (on-disk size: 13382.3 KB)
+0008.272 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 2700 files added (on-disk size: 13382.3 KB)
+0008.315 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 2800 files added (on-disk size: 13382.3 KB)
+0008.359 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 2900 files added (on-disk size: 13382.3 KB)
+0008.403 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 3000 files added (on-disk size: 13382.3 KB)
+0008.409 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.5 MB, 8717 files batched, 1001 (3004) added so far); re-opening (prior size: 13382.3 KB)
+0010.250 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 3100 files added (on-disk size: 19215.6 KB)
+0010.301 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 3200 files added (on-disk size: 19215.6 KB)
+0010.350 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 3300 files added (on-disk size: 19215.6 KB)
+0010.400 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 3400 files added (on-disk size: 19215.6 KB)
+0010.505 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 3500 files added (on-disk size: 19215.6 KB)
+0010.558 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 3600 files added (on-disk size: 19215.6 KB)
+0010.605 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 3700 files added (on-disk size: 19215.6 KB)
+0010.655 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 3800 files added (on-disk size: 19215.6 KB)
+0010.713 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 3900 files added (on-disk size: 19215.6 KB)
+0010.767 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 4000 files added (on-disk size: 19215.6 KB)
+0010.773 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12 MB, 8717 files batched, 1001 (4005) added so far); re-opening (prior size: 19215.6 KB)
+0012.403 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 4100 files added (on-disk size: 24752.3 KB)
+0012.467 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 4200 files added (on-disk size: 24752.3 KB)
+0012.570 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 4300 files added (on-disk size: 24752.3 KB)
+0012.622 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 4400 files added (on-disk size: 24752.3 KB)
+0012.667 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 4500 files added (on-disk size: 24752.3 KB)
+0012.725 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 4600 files added (on-disk size: 24752.3 KB)
+0012.812 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 4700 files added (on-disk size: 24752.3 KB)
+0012.872 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 4800 files added (on-disk size: 24752.3 KB)
+0012.960 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 4900 files added (on-disk size: 24752.3 KB)
+0013.010 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 5000 files added (on-disk size: 24752.3 KB)
+0013.017 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.1 MB, 8717 files batched, 1001 (5006) added so far); re-opening (prior size: 24752.3 KB)
+0014.116 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 5100 files added (on-disk size: 28159.9 KB)
+0014.169 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 5200 files added (on-disk size: 28159.9 KB)
+0014.224 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 5300 files added (on-disk size: 28159.9 KB)
+0014.290 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 5400 files added (on-disk size: 28159.9 KB)
+0014.351 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 5500 files added (on-disk size: 28159.9 KB)
+0014.402 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 5600 files added (on-disk size: 28159.9 KB)
+0014.455 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 5700 files added (on-disk size: 28159.9 KB)
+0014.505 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 5800 files added (on-disk size: 28159.9 KB)
+0014.554 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 5900 files added (on-disk size: 28159.9 KB)
+0014.603 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 6000 files added (on-disk size: 28159.9 KB)
+0014.609 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.5 MB, 8717 files batched, 1001 (6007) added so far); re-opening (prior size: 28159.9 KB)
+0017.610 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 6100 files added (on-disk size: 33866.8 KB)
+0017.679 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 6200 files added (on-disk size: 33866.8 KB)
+0017.731 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 6300 files added (on-disk size: 33866.8 KB)
+0017.808 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 6400 files added (on-disk size: 33866.8 KB)
+0017.874 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 6500 files added (on-disk size: 33866.8 KB)
+0017.933 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 6600 files added (on-disk size: 33866.8 KB)
+0017.977 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 6700 files added (on-disk size: 33866.8 KB)
+0018.047 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 6800 files added (on-disk size: 33866.8 KB)
+0018.109 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 6900 files added (on-disk size: 33866.8 KB)
+0018.187 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 7000 files added (on-disk size: 33866.8 KB)
+0018.198 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11 MB, 8717 files batched, 1001 (7008) added so far); re-opening (prior size: 33866.8 KB)
+0019.711 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 7100 files added (on-disk size: 37980 KB)
+0019.772 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 7200 files added (on-disk size: 37980 KB)
+0019.825 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 7300 files added (on-disk size: 37980 KB)
+0019.886 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 7400 files added (on-disk size: 37980 KB)
+0019.937 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 7500 files added (on-disk size: 37980 KB)
+0019.990 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 7600 files added (on-disk size: 37980 KB)
+0020.041 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 7700 files added (on-disk size: 37980 KB)
+0020.093 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 7800 files added (on-disk size: 37980 KB)
+0020.145 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 7900 files added (on-disk size: 37980 KB)
+0020.196 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 8000 files added (on-disk size: 37980 KB)
+0020.207 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.3 MB, 8717 files batched, 1001 (8009) added so far); re-opening (prior size: 37980 KB)
+0023.068 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 8100 files added (on-disk size: 43104.1 KB)
+0023.133 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 8200 files added (on-disk size: 43104.1 KB)
+0023.181 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 8300 files added (on-disk size: 43104.1 KB)
+0023.247 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 8400 files added (on-disk size: 43104.1 KB)
+0023.408 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 8500 files added (on-disk size: 43104.1 KB)
+0023.582 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 8600 files added (on-disk size: 43104.1 KB)
+0023.818 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.tmp: 8700 files added (on-disk size: 43104.1 KB)
+0025.317 (0) Creating zip file manifest (D:\xampp\htdocs\xampp\foco2022/wp-content/updraft/backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.list-temp.tmp)
+0025.385 (0) Successfully created zip file manifest (size: 741876)
+0025.828 (0) Created plugins zip (0) - 45677.7 KB in 25.7 s (1775.5 KB/s) (sha1: 270bad15bee0eea53883e700a4b566722e08f1a2, sha256: ba4331ef084dde2e445417bac2c5910b57352d01babbf41105d871d6dc1f049e)
+0025.835 (0) Beginning creation of dump of themes (split every: 400 MB)
+0026.284 (0) Total entities for the zip file: 199 directories, 903 files (0 skipped as non-modified), 22.2 MB
+0026.288 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3796, D:\xampp\htdocs\xampp\foco2022\wp-content\plugins\updraftplus\backup.php)
+0026.340 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0026.387 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0026.428 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0026.507 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0026.570 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0026.618 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0026.717 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0026.751 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0026.784 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0029.502 (0) Creating zip file manifest (D:\xampp\htdocs\xampp\foco2022/wp-content/updraft/backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-themes.zip.list-temp.tmp)
+0029.515 (0) Successfully created zip file manifest (size: 60903)
+0029.736 (0) Created themes zip (0) - 13036.4 KB in 3.9 s (3347 KB/s) (sha1: e5c12ebbcd2d31d0dcd441f7297b72787d73c573, sha256: dc216c0532edb201a0eb52fd4877c29beb662f8b59a3fc0a43af4e035e8e2a78)
+0029.778 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0029.782 (0) Looking for candidates to backup in: D:\xampp\htdocs\xampp\foco2022/wp-content/uploads
+0029.784 (0) finding files: 2017: adding to list (1)
+0029.787 (0) finding files: 2021: adding to list (2)
+0029.793 (0) finding files: elementor: adding to list (3)
+0029.799 (0) finding files: redux: adding to list (4)
+0029.807 (0) finding files: revslider: adding to list (5)
+0029.810 (0) finding files: wpallimport: adding to list (6)
+0029.815 (0) finding files: wpcf7_uploads: adding to list (7)
+0029.820 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0029.903 (0) Total entities for the zip file: 30 directories, 108 files (0 skipped as non-modified), 7.1 MB
+0029.906 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3796, D:\xampp\htdocs\xampp\foco2022\wp-content\plugins\updraftplus\backup.php)
+0029.991 (0) Zip: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0030.475 (0) Creating zip file manifest (D:\xampp\htdocs\xampp\foco2022/wp-content/updraft/backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-uploads.zip.list-temp.tmp)
+0030.484 (0) Successfully created zip file manifest (size: 5971)
+0030.559 (0) Created uploads zip (0) - 3636.2 KB in 0.7 s (4993.4 KB/s) (sha1: 5e92f0b856deed6f799e647de8b16702ad5e6cd1, sha256: 783af70004f534283917cc891541d0e14c26292228be6428c57e0165483836fc)
+0030.569 (0) Beginning backup of other directories found in the content directory (index: 0)
+0030.572 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0030.574 (0) Looking for candidates to backup in: D:\xampp\htdocs\xampp\foco2022/wp-content
+0030.578 (0) finding files: index.php: adding to list (1)
+0030.581 (0) finding files: languages: adding to list (2)
+0030.584 (0) finding files: plugins: skipping: this is the plugins directory
+0030.586 (0) finding files: themes: skipping: this is the themes directory
+0030.589 (0) finding files: updraft: skipping: this is the updraft directory
+0030.593 (0) finding files: upgrade: skipping: excluded by options
+0030.597 (0) finding files: uploads: skipping: this is the uploads directory
+0030.653 (0) Total entities for the zip file: 3 directories, 89 files (0 skipped as non-modified), 3 MB
+0030.657 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3796, D:\xampp\htdocs\xampp\foco2022\wp-content\plugins\updraftplus\backup.php)
+0031.155 (0) Creating zip file manifest (D:\xampp\htdocs\xampp\foco2022/wp-content/updraft/backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-others.zip.list-temp.tmp)
+0031.161 (0) Successfully created zip file manifest (size: 5559)
+0031.190 (0) Created others zip (0) - 884 KB in 0.6 s (1522.6 KB/s) (sha1: 0895ad954a9ee6f13b60778e1fc369cd19742817, sha256: 41ef39d744c0e18db7db7f9d8c2edd4e3643dff900f3d3551ee26b11c8a7e966)
+0031.214 (0) Saving backup status to database (elements: 8)
+0031.222 (0) Beginning creation of database dump (WordPress DB)
+0031.226 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0031.233 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysqldump.exe
+0031.685 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n SET character_set_client = utf8mb4 ;\nCREATE TAB (truncated - 1289 bytes total)
+0031.690 (0) Binary mysqldump: error (code: 2)
+0031.745 (0) Table wp_options: Total expected rows (via COUNT): 359
+0031.747 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.817 (0) Table wp_options: Rows added in this batch (next record: 1025): 353 (uncompressed bytes in this segment=1900888) in 0.11 seconds
+0031.840 (0) Table wp_options: finishing file(s) (2, 192.3 KB)
+0031.855 (0) Table wp_users: Total expected rows (via COUNT): 1
+0031.859 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.865 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1367) in 0.02 seconds
+0031.879 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0031.897 (0) Table wp_usermeta: Total expected rows (via COUNT): 31
+0031.900 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.906 (0) Table wp_usermeta: Rows added in this batch (next record: 33): 31 (uncompressed bytes in this segment=4715) in 0.02 seconds
+0031.923 (0) Table wp_usermeta: finishing file(s) (2, 1.9 KB)
+0031.940 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0031.948 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.02 seconds
+0031.970 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0031.983 (0) Table wp_comments: Total expected rows (via COUNT): 4
+0031.986 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.991 (0) Table wp_comments: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=3195) in 0.01 seconds
+0032.004 (0) Table wp_comments: finishing file(s) (2, 1.1 KB)
+0032.018 (0) Table wp_links: Total expected rows (via COUNT): 0
+0032.023 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.01 seconds
+0032.036 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0032.125 (0) Table wp_postmeta: Total expected rows (approximate): 5716
+0032.268 (0) Table wp_postmeta: Rows added in this batch (next record: 6654): 6211 (uncompressed bytes in this segment=2797072) in 0.23 seconds
+0032.300 (0) Table wp_postmeta: finishing file(s) (2, 159.6 KB)
+0032.369 (0) Table wp_posts: Total expected rows (via COUNT): 432
+0032.372 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.430 (0) Table wp_posts: Rows added in this batch (next record: 11974): 432 (uncompressed bytes in this segment=1376417) in 0.12 seconds
+0032.453 (0) Table wp_posts: finishing file(s) (2, 65.9 KB)
+0032.467 (0) Table wp_term_relationships: Total expected rows (approximate): 704
+0032.479 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 704 (uncompressed bytes in this segment=13039) in 0.02 seconds
+0032.501 (0) Table wp_term_relationships: finishing file(s) (2, 2.4 KB)
+0032.519 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 219
+0032.521 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.527 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 219): 219 (uncompressed bytes in this segment=9178) in 0.02 seconds
+0032.541 (0) Table wp_term_taxonomy: finishing file(s) (2, 2 KB)
+0032.557 (0) Table wp_termmeta: Total expected rows (via COUNT): 18
+0032.558 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.564 (0) Table wp_termmeta: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1564) in 0.02 seconds
+0032.578 (0) Table wp_termmeta: finishing file(s) (2, 0.6 KB)
+0032.590 (0) Table wp_terms: Total expected rows (via COUNT): 219
+0032.593 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.600 (0) Table wp_terms: Rows added in this batch (next record: 219): 219 (uncompressed bytes in this segment=9284) in 0.02 seconds
+0032.612 (0) Table wp_terms: finishing file(s) (2, 3.3 KB)
+0032.623 (0) Table wp_pmxi_files: Total expected rows (via COUNT): 1
+0032.625 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.629 (0) Table wp_pmxi_files: Rows added in this batch (next record: 8): 1 (uncompressed bytes in this segment=822) in 0.01 seconds
+0032.643 (0) Table wp_pmxi_files: finishing file(s) (2, 0.5 KB)
+0032.655 (0) Table wp_pmxi_hash: Total expected rows (approximate): 0
+0032.660 (0) Table wp_pmxi_hash: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=545) in 0.01 seconds
+0032.670 (0) Table wp_pmxi_hash: finishing file(s) (2, 0.4 KB)
+0032.681 (0) Table wp_pmxi_history: Total expected rows (via COUNT): 5
+0032.684 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.689 (0) Table wp_pmxi_history: Rows added in this batch (next record: 6): 5 (uncompressed bytes in this segment=1338) in 0.01 seconds
+0032.700 (0) Table wp_pmxi_history: finishing file(s) (2, 0.6 KB)
+0032.710 (0) Table wp_pmxi_images: Total expected rows (via COUNT): 15
+0032.713 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.715 (0) Table wp_pmxi_images: Rows added in this batch (next record: 16): 15 (uncompressed bytes in this segment=1229) in 0.01 seconds
+0032.727 (0) Table wp_pmxi_images: finishing file(s) (2, 0.6 KB)
+0032.742 (0) Table wp_pmxi_imports: Total expected rows (via COUNT): 1
+0032.744 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.746 (0) Table wp_pmxi_imports: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=22676) in 0.01 seconds
+0032.759 (0) Table wp_pmxi_imports: finishing file(s) (2, 4.5 KB)
+0032.771 (0) Table wp_pmxi_posts: Total expected rows (via COUNT): 34
+0032.774 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.778 (0) Table wp_pmxi_posts: Rows added in this batch (next record: 34): 34 (uncompressed bytes in this segment=1978) in 0.01 seconds
+0032.790 (0) Table wp_pmxi_posts: finishing file(s) (2, 0.7 KB)
+0032.805 (0) Table wp_pmxi_templates: Total expected rows (via COUNT): 0
+0032.809 (0) Table wp_pmxi_templates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=970) in 0.01 seconds
+0032.824 (0) Table wp_pmxi_templates: finishing file(s) (2, 0.4 KB)
+0032.874 (0) Table wp_revslider_css: Total expected rows (via COUNT): 109
+0032.876 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.885 (0) Table wp_revslider_css: Rows added in this batch (next record: 109): 109 (uncompressed bytes in this segment=91104) in 0.05 seconds
+0032.901 (0) Table wp_revslider_css: finishing file(s) (2, 4.9 KB)
+0032.917 (0) Table wp_revslider_css_bkp: Total expected rows (via COUNT): 47
+0032.920 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.925 (0) Table wp_revslider_css_bkp: Rows added in this batch (next record: 47): 47 (uncompressed bytes in this segment=15433) in 0.02 seconds
+0032.941 (0) Table wp_revslider_css_bkp: finishing file(s) (2, 1.8 KB)
+0032.952 (0) Table wp_revslider_layer_animations: Total expected rows (via COUNT): 0
+0032.958 (0) Table wp_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=550) in 0.01 seconds
+0032.970 (0) Table wp_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0032.990 (0) Table wp_revslider_layer_animations_bkp: Total expected rows (via COUNT): 0
+0032.995 (0) Table wp_revslider_layer_animations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=574) in 0.01 seconds
+0033.012 (0) Table wp_revslider_layer_animations_bkp: finishing file(s) (2, 0.3 KB)
+0033.032 (0) Table wp_revslider_navigations: Total expected rows (via COUNT): 0
+0033.035 (0) Table wp_revslider_navigations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=627) in 0.01 seconds
+0033.053 (0) Table wp_revslider_navigations: finishing file(s) (2, 0.3 KB)
+0033.079 (0) Table wp_revslider_navigations_bkp: Total expected rows (via COUNT): 0
+0033.082 (0) Table wp_revslider_navigations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=651) in 0.01 seconds
+0033.098 (0) Table wp_revslider_navigations_bkp: finishing file(s) (2, 0.3 KB)
+0033.113 (0) Table wp_revslider_sliders: Total expected rows (via COUNT): 1
+0033.114 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0033.120 (0) Table wp_revslider_sliders: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=9972) in 0.02 seconds
+0033.133 (0) Table wp_revslider_sliders: finishing file(s) (2, 3.3 KB)
+0033.148 (0) Table wp_revslider_sliders_bkp: Total expected rows (via COUNT): 0
+0033.155 (0) Table wp_revslider_sliders_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=635) in 0.02 seconds
+0033.169 (0) Table wp_revslider_sliders_bkp: finishing file(s) (2, 0.4 KB)
+0033.184 (0) Table wp_revslider_slides: Total expected rows (via COUNT): 2
+0033.187 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0033.192 (0) Table wp_revslider_slides: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=47269) in 0.02 seconds
+0033.206 (0) Table wp_revslider_slides: finishing file(s) (2, 4.6 KB)
+0033.223 (0) Table wp_revslider_slides_bkp: Total expected rows (via COUNT): 0
+0033.227 (0) Table wp_revslider_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=633) in 0.01 seconds
+0033.241 (0) Table wp_revslider_slides_bkp: finishing file(s) (2, 0.4 KB)
+0033.259 (0) Table wp_revslider_static_slides: Total expected rows (via COUNT): 1
+0033.261 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0033.267 (0) Table wp_revslider_static_slides: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=750) in 0.02 seconds
+0033.281 (0) Table wp_revslider_static_slides: finishing file(s) (2, 0.4 KB)
+0033.298 (0) Table wp_revslider_static_slides_bkp: Total expected rows (via COUNT): 0
+0033.304 (0) Table wp_revslider_static_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=630) in 0.02 seconds
+0033.318 (0) Table wp_revslider_static_slides_bkp: finishing file(s) (2, 0.3 KB)
+0033.320 (0) PHP event: code E_WARNING: filemtime(): stat failed for D:\xampp\htdocs\xampp\foco2022/wp-content/updraft/backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db.gz (line 1836, D:\xampp\htdocs\xampp\foco2022\wp-content\plugins\updraftplus\backup.php)
+0033.324 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_options.table.tmpr1026.gz (1/31/fopen): adding to final database dump
+0033.334 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_options.table.gz (2/31/fopen): adding to final database dump
+0033.337 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_users.table.tmpr2.gz (3/31/fopen): adding to final database dump
+0033.339 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_users.table.gz (4/31/fopen): adding to final database dump
+0033.341 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_usermeta.table.tmpr34.gz (5/31/fopen): adding to final database dump
+0033.344 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_usermeta.table.gz (6/31/fopen): adding to final database dump
+0033.345 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_commentmeta.table.tmpr0.gz (7/31/fopen): adding to final database dump
+0033.348 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_commentmeta.table.gz (8/31/fopen): adding to final database dump
+0033.351 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_comments.table.tmpr5.gz (9/31/fopen): adding to final database dump
+0033.353 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_comments.table.gz (10/31/fopen): adding to final database dump
+0033.355 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_links.table.tmpr0.gz (11/31/fopen): adding to final database dump
+0033.358 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_links.table.gz (12/31/fopen): adding to final database dump
+0033.359 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_postmeta.table.tmpr6655.gz (13/31/fopen): adding to final database dump
+0033.368 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_postmeta.table.gz (14/31/fopen): adding to final database dump
+0033.369 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_posts.table.tmpr11975.gz (15/31/fopen): adding to final database dump
+0033.374 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_posts.table.gz (16/31/fopen): adding to final database dump
+0033.375 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_term_relationships.table.tmpr100001.gz (17/31/fopen): adding to final database dump
+0033.378 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_term_relationships.table.gz (18/31/fopen): adding to final database dump
+0033.380 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_term_taxonomy.table.tmpr220.gz (19/31/fopen): adding to final database dump
+0033.383 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_term_taxonomy.table.gz (20/31/fopen): adding to final database dump
+0033.384 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_termmeta.table.tmpr19.gz (21/31/fopen): adding to final database dump
+0033.387 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_termmeta.table.gz (22/31/fopen): adding to final database dump
+0033.388 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_terms.table.tmpr220.gz (23/31/fopen): adding to final database dump
+0033.391 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_terms.table.gz (24/31/fopen): adding to final database dump
+0033.392 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_pmxi_files.table.tmpr9.gz (25/31/fopen): adding to final database dump
+0033.395 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_pmxi_files.table.gz (26/31/fopen): adding to final database dump
+0033.396 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_pmxi_hash.table.tmpr1.gz (27/31/fopen): adding to final database dump
+0033.399 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_pmxi_hash.table.gz (28/31/fopen): adding to final database dump
+0033.401 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_pmxi_history.table.tmpr7.gz (29/31/fopen): adding to final database dump
+0033.403 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_pmxi_history.table.gz (30/31/fopen): adding to final database dump
+0033.405 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_pmxi_images.table.tmpr17.gz (31/31/fopen): adding to final database dump
+0033.407 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_pmxi_images.table.gz (32/31/fopen): adding to final database dump
+0033.408 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_pmxi_imports.table.tmpr3.gz (33/31/fopen): adding to final database dump
+0033.411 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_pmxi_imports.table.gz (34/31/fopen): adding to final database dump
+0033.412 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_pmxi_posts.table.tmpr35.gz (35/31/fopen): adding to final database dump
+0033.415 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_pmxi_posts.table.gz (36/31/fopen): adding to final database dump
+0033.418 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_pmxi_templates.table.tmpr0.gz (37/31/fopen): adding to final database dump
+0033.419 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_pmxi_templates.table.gz (38/31/fopen): adding to final database dump
+0033.422 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_css.table.tmpr110.gz (39/31/fopen): adding to final database dump
+0033.423 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_css.table.gz (40/31/fopen): adding to final database dump
+0033.425 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_css_bkp.table.tmpr48.gz (41/31/fopen): adding to final database dump
+0033.427 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_css_bkp.table.gz (42/31/fopen): adding to final database dump
+0033.430 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_layer_animations.table.tmpr0.gz (43/31/fopen): adding to final database dump
+0033.431 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_layer_animations.table.gz (44/31/fopen): adding to final database dump
+0033.434 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_layer_animations_bkp.table.tmpr0.gz (45/31/fopen): adding to final database dump
+0033.436 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_layer_animations_bkp.table.gz (46/31/fopen): adding to final database dump
+0033.438 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_navigations.table.tmpr0.gz (47/31/fopen): adding to final database dump
+0033.439 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_navigations.table.gz (48/31/fopen): adding to final database dump
+0033.442 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_navigations_bkp.table.tmpr0.gz (49/31/fopen): adding to final database dump
+0033.443 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_navigations_bkp.table.gz (50/31/fopen): adding to final database dump
+0033.446 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_sliders.table.tmpr2.gz (51/31/fopen): adding to final database dump
+0033.448 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_sliders.table.gz (52/31/fopen): adding to final database dump
+0033.450 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_sliders_bkp.table.tmpr0.gz (53/31/fopen): adding to final database dump
+0033.452 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_sliders_bkp.table.gz (54/31/fopen): adding to final database dump
+0033.454 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_slides.table.tmpr3.gz (55/31/fopen): adding to final database dump
+0033.455 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_slides.table.gz (56/31/fopen): adding to final database dump
+0033.458 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_slides_bkp.table.tmpr0.gz (57/31/fopen): adding to final database dump
+0033.459 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_slides_bkp.table.gz (58/31/fopen): adding to final database dump
+0033.462 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_static_slides.table.tmpr2.gz (59/31/fopen): adding to final database dump
+0033.463 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_static_slides.table.gz (60/31/fopen): adding to final database dump
+0033.465 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_static_slides_bkp.table.tmpr0.gz (61/31/fopen): adding to final database dump
+0033.467 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db-table-wp_revslider_static_slides_bkp.table.gz (62/31/fopen): adding to final database dump
+0033.481 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db.gz: finished writing out complete database file (455.6 KB)
+0033.514 (0) Total database tables backed up: 31 (backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db.gz, size: 466682, sha1: 4825efb437f5f0e400d2281cb2baa9a8d33ecc69, sha256: bc2dd34dba71528df4fce7d03870b0297a686fcff45cd7b62c1d3257f08b8421)
+0033.525 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0033.526 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0033.528 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0033.530 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-others.zip: others: This file has not yet been successfully uploaded: will queue
+0033.532 (0) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db.gz: db: This file has not yet been successfully uploaded: will queue
+0033.534 (0) Saving backup history. Total backup size: 62.2 MB
+0033.539 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0033.544 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0033.546 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7a47986bd99b0c6f2b491669cbcba017)
+0034.995 (0) Google Drive: quota usage: used=12755.4 MB, total=15360 MB, available=2604.6 MB
+0034.998 (0) Google Drive: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip: Attempting to upload to Google Drive (into folder id: 1GY5in6q8-qd-jaYIo6OZGVljevHZoF74)
+0035.420 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: D:\xampp\htdocs\xampp\foco2022\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0035.423 (0) An error condition has occurred for the first time during this job
+0035.955 (0) Google Drive: quota usage: used=12755.4 MB, total=15360 MB, available=2604.6 MB
+0035.957 (0) Google Drive: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-themes.zip: Attempting to upload to Google Drive (into folder id: 1GY5in6q8-qd-jaYIo6OZGVljevHZoF74)
+0036.379 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: D:\xampp\htdocs\xampp\foco2022\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0036.758 (0) Google Drive: quota usage: used=12755.4 MB, total=15360 MB, available=2604.6 MB
+0036.761 (0) Google Drive: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-uploads.zip: Attempting to upload to Google Drive (into folder id: 1GY5in6q8-qd-jaYIo6OZGVljevHZoF74)
+0037.241 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: D:\xampp\htdocs\xampp\foco2022\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0037.630 (0) Google Drive: quota usage: used=12755.4 MB, total=15360 MB, available=2604.6 MB
+0037.632 (0) Google Drive: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-others.zip: Attempting to upload to Google Drive (into folder id: 1GY5in6q8-qd-jaYIo6OZGVljevHZoF74)
+0039.745 (0) Google Drive: ERROR: upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ADPycdsOmfR-h_XUVwKq6vNSTqvKWcbU2NlDyFX4v6ULQN3GKiwVQOgYekjdTxSutUM3B49fKbMOOA24An4XZxH22g8: (403) The user has exceeded their Drive storage quota (line: 110, file: D:\xampp\htdocs\xampp\foco2022\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+0041.625 (0) Google Drive: ERROR: upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ADPycdt1tNR73TX81GI3kQiUIIFHMksLtAGFVBlCOQNauHbFYqprmyciIrW2CADjDY_T9cELxsvXfT6ynToKnFiUQ5k: (403) The user has exceeded their Drive storage quota (line: 110, file: D:\xampp\htdocs\xampp\foco2022\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+0041.627 (0) Google Drive: Upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ADPycdt1tNR73TX81GI3kQiUIIFHMksLtAGFVBlCOQNauHbFYqprmyciIrW2CADjDY_T9cELxsvXfT6ynToKnFiUQ5k: (403) The user has exceeded their Drive storage quota (line: 110, file: D:\xampp\htdocs\xampp\foco2022\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+0042.182 (0) Google Drive: quota usage: used=12755.4 MB, total=15360 MB, available=2604.6 MB
+0042.185 (0) Google Drive: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db.gz: Attempting to upload to Google Drive (into folder id: 1GY5in6q8-qd-jaYIo6OZGVljevHZoF74)
+0044.032 (0) Google Drive: ERROR: upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ADPycdspcJuQx4hJjYJZgbVpmrPeyyJOUrKGaCLtL7B1kKxpR0tvctIlr3ly8gy9pu21-y3EjrES_a0muIjhODx2BqM: (403) The user has exceeded their Drive storage quota (line: 110, file: D:\xampp\htdocs\xampp\foco2022\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+0045.860 (0) Google Drive: ERROR: upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ADPycdsQeJmrSQc0TZ6PTkDLq3zUR3VdL-_2v4_XOmaW9hzWBjctjfrIAMW_BGNkw1_GziELW46-hCYi9HOkcFurq8w6vXxgIA: (403) The user has exceeded their Drive storage quota (line: 110, file: D:\xampp\htdocs\xampp\foco2022\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+0045.863 (0) Google Drive: Upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ADPycdsQeJmrSQc0TZ6PTkDLq3zUR3VdL-_2v4_XOmaW9hzWBjctjfrIAMW_BGNkw1_GziELW46-hCYi9HOkcFurq8w6vXxgIA: (403) The user has exceeded their Drive storage quota (line: 110, file: D:\xampp\htdocs\xampp\foco2022\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+0045.868 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0045.871 (0) Number of backup sets in history: 3; groups (db): 1
+0045.873 (0) Examining (for databases) backup set with group_id=0, nonce=0802674f80f3, datestamp=1638371043 (Dec 01 2021 15:04:03)
+0045.876 (0) This backup set is the backup set just made, so will not be deleted.
+0045.876 (0) Examining (for databases) backup set with group_id=0, nonce=f4e461353ade, datestamp=1638370848 (Dec 01 2021 15:00:48)
+0045.876 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0045.877 (0) Examining (for databases) backup set with group_id=0, nonce=6cd62691957a, datestamp=1638370166 (Dec 01 2021 14:49:26)
+0045.877 (0) 1638370166: db: this set includes a database (backup_2021-12-01-1149_Foco_Veculos_6cd62691957a-db.gz); db count is now 2
+0045.877 (0) 1638370166: db: over retain limit (2); will delete this database
+0045.877 (0) Delete file: backup_2021-12-01-1149_Foco_Veculos_6cd62691957a-db.gz, service=googledrive
+0047.725 (0) Google Drive: backup_2021-12-01-1149_Foco_Veculos_6cd62691957a-db.gz: Deletion successful
+0047.733 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0047.735 (0) Number of backup sets in history: 3; groups (files): 1
+0047.739 (0) Examining (for files) backup set with nonce=0802674f80f3, datestamp=1638371043 (Dec 01 2021 15:04:03)
+0047.739 (0) This backup set is the backup set just made, so will not be deleted.
+0047.742 (0) This backup set is the backup set just made, so will not be deleted.
+0047.742 (0) This backup set is the backup set just made, so will not be deleted.
+0047.742 (0) This backup set is the backup set just made, so will not be deleted.
+0047.742 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.746 (0) Examining (for files) backup set with nonce=f4e461353ade, datestamp=1638370848 (Dec 01 2021 15:00:48)
+0047.746 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.746 (0) Examining (for files) backup set with nonce=6cd62691957a, datestamp=1638370166 (Dec 01 2021 14:49:26)
+0047.746 (0) plugins: over retain limit (2); will delete this file entity
+0047.746 (0) themes: over retain limit (2); will delete this file entity
+0047.746 (0) uploads: over retain limit (2); will delete this file entity
+0047.746 (0) others: over retain limit (2); will delete this file entity
+0047.746 (0) Delete file: backup_2021-12-01-1149_Foco_Veculos_6cd62691957a-plugins.zip, service=googledrive
+0047.748 (0) Delete file: backup_2021-12-01-1149_Foco_Veculos_6cd62691957a-themes.zip, service=googledrive
+0047.751 (0) Deleting local copy (backup_2021-12-01-1149_Foco_Veculos_6cd62691957a-themes.zip)
+0047.754 (0) Deleting zip manifest (backup_2021-12-01-1149_Foco_Veculos_6cd62691957a-themes.zip.list.tmp)
+0047.757 (0) Delete file: backup_2021-12-01-1149_Foco_Veculos_6cd62691957a-uploads.zip, service=googledrive
+0047.758 (0) Delete file: backup_2021-12-01-1149_Foco_Veculos_6cd62691957a-others.zip, service=googledrive
+0049.252 (0) Google Drive: backup_2021-12-01-1149_Foco_Veculos_6cd62691957a-others.zip: Deletion successful
+0049.983 (0) Google Drive: backup_2021-12-01-1149_Foco_Veculos_6cd62691957a-uploads.zip: Deletion successful
+0050.595 (0) Google Drive: backup_2021-12-01-1149_Foco_Veculos_6cd62691957a-plugins.zip: Deletion successful
+0050.598 (0) Google Drive: backup_2021-12-01-1149_Foco_Veculos_6cd62691957a-themes.zip: Deletion failed: file was not found
+0050.602 (0) This backup set is now empty; will remove from history
+0050.605 (0) Deleting log file (log.6cd62691957a.txt)
+0050.607 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0050.614 (0) Resume backup (0802674f80f3, 0): finish run
+0050.621 (0) Decremented the semaphore (fd) by 1
+0050.625 (0) Semaphore (fd) unlocked
+0050.630 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0050.636 (0) Rescheduling resumption 1: moving to 60 seconds from now (1638371154)
+0050.640 (0) No email will/can be sent - the user has not configured an email address.
+0050.643 (0) O backup não foi finalizado; um recomeço foi agendado
+0133.752 (1) Opened log file at time: Wed, 01 Dec 2021 15:06:17 +0000 on http://localhost/xampp/foco2022
+0133.754 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.66 WP: 5.8.2 PHP: 8.0.6 (apache2handler, Windows NT PCKOMOR 10.0 build 19043 (Windows 10) AMD64) MySQL: 10.4.19-MariaDB (max packet size=1048576) WPLANG: pt_BR Server: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 58.9M | 6M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0133.757 (1) Free space on disk containing Updraft's temporary directory: 104546 MB
+0133.760 (1) Requesting backup semaphore lock (0802674f80f3)
+0133.766 (1) [Debug] Lock option (updraft_lock_0802674f80f3, wp_options) was created in the database
+0133.769 (1) [Info] Lock (updraft_lock_0802674f80f3, wp_options) acquired after initialising the database
+0133.774 (1) Backup run: resumption=1, nonce=0802674f80f3, file_nonce=0802674f80f3 begun at=1638371043 (134s ago), job type=backup, previous check-in=50.6s
+0133.779 (1) Scheduling a resumption (2) after 300 seconds (1638371477) in case this run gets aborted
+0133.802 (1) Checking if we have a zip executable available
+0133.804 (1) Creation of backups of directories: already finished
+0133.808 (1) Saving backup status to database (elements: 8)
+0133.819 (1) Database dump (WordPress DB): Creation was completed already
+0133.822 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0133.834 (1) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0133.838 (1) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0133.842 (1) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0133.845 (1) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-others.zip: others: This file has not yet been successfully uploaded: will queue
+0133.846 (1) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db.gz: db: This file has not yet been successfully uploaded: will queue
+0133.850 (1) Saving backup history. Total backup size: 62.2 MB
+0133.857 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0133.866 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0133.873 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7a47986bd99b0c6f2b491669cbcba017)
+0135.172 (1) Google Drive: quota usage: used=12706 MB, total=15360 MB, available=2654 MB
+0135.177 (1) Google Drive: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip: Attempting to upload to Google Drive (into folder id: 1GY5in6q8-qd-jaYIo6OZGVljevHZoF74)
+0136.511 (1) Googledrive chunked upload: 2.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 61.6 / 6)
+0137.176 (1) Googledrive chunked upload: 6.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 61.6 / 6)
+0138.374 (1) Googledrive chunked upload: 15.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 61.6 / 6)
+0140.130 (1) Googledrive chunked upload: 33.6 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 61.6 / 6)
+0143.243 (1) Googledrive chunked upload: 69.5 % uploaded (32505856)
+0147.140 (1) Googledrive chunked upload: 100 % uploaded (32505856)
+0147.147 (1) Google Drive: OK: Archive backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip uploaded in 11.97 seconds
+0147.150 (1) Recording as successfully uploaded: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip
+0147.160 (1) Deleting local file: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip: OK
+0147.163 (1) Deleting zip manifest (backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip.list.tmp)
+0147.608 (1) Google Drive: quota usage: used=12750.6 MB, total=15360 MB, available=2609.4 MB
+0147.612 (1) Google Drive: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-themes.zip: Attempting to upload to Google Drive (into folder id: 1GY5in6q8-qd-jaYIo6OZGVljevHZoF74)
+0148.044 (1) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: D:\xampp\htdocs\xampp\foco2022\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0148.046 (1) An error condition has occurred for the first time during this job
+0148.438 (1) Google Drive: quota usage: used=12750.6 MB, total=15360 MB, available=2609.4 MB
+0148.440 (1) Google Drive: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-uploads.zip: Attempting to upload to Google Drive (into folder id: 1GY5in6q8-qd-jaYIo6OZGVljevHZoF74)
+0149.553 (1) Googledrive chunked upload: 28.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 62.6 / 6)
+0150.261 (1) Googledrive chunked upload: 84.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 62.6 / 6)
+0151.725 (1) Googledrive chunked upload: 100 % uploaded (3145728)
+0151.732 (1) Google Drive: OK: Archive backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-uploads.zip uploaded in 3.29 seconds
+0151.734 (1) Recording as successfully uploaded: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-uploads.zip
+0151.739 (1) Deleting local file: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-uploads.zip: OK
+0151.742 (1) Deleting zip manifest (backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-uploads.zip.list.tmp)
+0152.549 (1) Google Drive: quota usage: used=12754.1 MB, total=15360 MB, available=2605.9 MB
+0152.552 (1) Google Drive: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-others.zip: Attempting to upload to Google Drive (into folder id: 1GY5in6q8-qd-jaYIo6OZGVljevHZoF74)
+0154.868 (1) Googledrive chunked upload: 100 % uploaded
+0154.876 (1) Google Drive: OK: Archive backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-others.zip uploaded in 2.32 seconds
+0154.878 (1) Recording as successfully uploaded: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-others.zip
+0154.883 (1) Deleting local file: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-others.zip: OK
+0154.886 (1) Deleting zip manifest (backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-others.zip.list.tmp)
+0155.455 (1) Google Drive: quota usage: used=12755 MB, total=15360 MB, available=2605 MB
+0155.457 (1) Google Drive: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db.gz: Attempting to upload to Google Drive (into folder id: 1GY5in6q8-qd-jaYIo6OZGVljevHZoF74)
+0157.752 (1) Googledrive chunked upload: 100 % uploaded
+0157.760 (1) Google Drive: OK: Archive backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db.gz uploaded in 2.3 seconds
+0157.763 (1) Recording as successfully uploaded: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db.gz
+0157.769 (1) Deleting local file: backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db.gz: OK
+0157.775 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0157.777 (1) Number of backup sets in history: 2; groups (db): 1
+0157.780 (1) Examining (for databases) backup set with group_id=0, nonce=0802674f80f3, datestamp=1638371043 (Dec 01 2021 15:04:03)
+0157.781 (1) This backup set is the backup set just made, so will not be deleted.
+0157.781 (1) Examining (for databases) backup set with group_id=0, nonce=f4e461353ade, datestamp=1638370848 (Dec 01 2021 15:00:48)
+0157.781 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0157.784 (1) Number of backup sets in history: 2; groups (files): 1
+0157.786 (1) Examining (for files) backup set with nonce=0802674f80f3, datestamp=1638371043 (Dec 01 2021 15:04:03)
+0157.786 (1) This backup set is the backup set just made, so will not be deleted.
+0157.788 (1) This backup set is the backup set just made, so will not be deleted.
+0157.789 (1) This backup set is the backup set just made, so will not be deleted.
+0157.789 (1) This backup set is the backup set just made, so will not be deleted.
+0157.789 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0157.790 (1) Examining (for files) backup set with nonce=f4e461353ade, datestamp=1638370848 (Dec 01 2021 15:00:48)
+0157.790 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0157.790 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0157.796 (1) Resume backup (0802674f80f3, 1): finish run
+0157.800 (1) [Info] Lock option (updraft_lock_0802674f80f3, wp_options) released
+0157.805 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0157.810 (1) No email will/can be sent - the user has not configured an email address.
+0157.812 (1) O backup não foi finalizado; um recomeço foi agendado
+17329.852 (2) Opened log file at time: Wed, 01 Dec 2021 19:52:53 +0000 on http://localhost/xampp/foco2022
+17329.858 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.66 WP: 5.8.2 PHP: 8.0.6 (apache2handler, Windows NT PCKOMOR 10.0 build 19043 (Windows 10) AMD64) MySQL: 10.4.19-MariaDB (max packet size=1048576) WPLANG: pt_BR Server: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 60.5M | 62M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+17329.862 (2) Free space on disk containing Updraft's temporary directory: 104602.2 MB
+17329.865 (2) Requesting backup semaphore lock (0802674f80f3)
+17329.871 (2) [Info] Lock (updraft_lock_6cd62691957a, wp_options) acquired
+17329.880 (2) Backup run: resumption=2, nonce=0802674f80f3, file_nonce=0802674f80f3 begun at=1638371043 (17330s ago), job type=backup, previous check-in=24s
+17329.889 (2) Long time past since expected resumption time: approx expected=1638371501.3, now=1638388373.4, diff=16872.1
+17329.899 (2) [Warning] Seu website é visitado com frequência e UpdraftPlus não esta recebendo os recursos que esperava; por favor, leia esta página: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+17329.909 (2) Scheduling a resumption (3) after 300 seconds (1638388673) in case this run gets aborted
+17329.917 (2) Checking if we have a zip executable available
+17329.920 (2) Creation of backups of directories: already finished
+17329.926 (2) Saving backup status to database (elements: 8)
+17329.932 (2) Database dump (WordPress DB): Creation was completed already
+17329.934 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+17329.944 (2) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-plugins.zip: plugins: This file has already been successfully uploaded
+17329.949 (2) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+17329.952 (2) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-uploads.zip: uploads: This file has already been successfully uploaded
+17329.956 (2) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-others.zip: others: This file has already been successfully uploaded
+17329.959 (2) backup_2021-12-01-1204_Foco_Veculos_0802674f80f3-db.gz: db: This file has already been successfully uploaded
+17329.963 (2) Saving backup history. Total backup size: Unknown
+17329.971 (2) Requesting upload of the files that have not yet been successfully uploaded (1)
+17329.978 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+17329.980 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7a47986bd99b0c6f2b491669cbcba017)
+17329.988 (2) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 6: Could not resolve host: auth.updraftplus.com) (http_request_failed)
+17330.000 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+17330.016 (2) Number of backup sets in history: 2; groups (db): 1
+17330.019 (2) Examining (for databases) backup set with group_id=0, nonce=0802674f80f3, datestamp=1638371043 (Dec 01 2021 15:04:03)
+17330.019 (2) This backup set is the backup set just made, so will not be deleted.
+17330.019 (2) Examining (for databases) backup set with group_id=0, nonce=f4e461353ade, datestamp=1638370848 (Dec 01 2021 15:00:48)
+17330.020 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+17330.023 (2) Number of backup sets in history: 2; groups (files): 1
+17330.027 (2) Examining (for files) backup set with nonce=0802674f80f3, datestamp=1638371043 (Dec 01 2021 15:04:03)
+17330.027 (2) This backup set is the backup set just made, so will not be deleted.
+17330.031 (2) This backup set is the backup set just made, so will not be deleted.
+17330.031 (2) This backup set is the backup set just made, so will not be deleted.
+17330.031 (2) This backup set is the backup set just made, so will not be deleted.
+17330.031 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+17330.046 (2) Examining (for files) backup set with nonce=f4e461353ade, datestamp=1638370848 (Dec 01 2021 15:00:48)
+17330.047 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+17330.047 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+17330.055 (2) Resume backup (0802674f80f3, 2): finish run
+17330.089 (2) [Info] Lock option (updraft_lock_6cd62691957a, wp_options) released
+17330.104 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+17330.117 (2) No email will/can be sent - the user has not configured an email address.
+17330.124 (2) O backup não foi finalizado; um recomeço foi agendado
+3135270.456 (3) Opened log file at time: Thu, 06 Jan 2022 21:58:33 +0000 on http://localhost/xampp/foco2022
+3135270.466 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.66 WP: 5.8.2 PHP: 8.0.6 (apache2handler, Windows NT PCKOMOR 10.0 build 19043 (Windows 10) AMD64) MySQL: 10.4.19-MariaDB (max packet size=1048576) WPLANG: pt_BR Server: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 59M | 6M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+3135270.470 (3) Free space on disk containing Updraft's temporary directory: 50316.3 MB
+3135270.475 (3) Requesting backup semaphore lock (0802674f80f3)
+3135270.482 (3) [Info] Lock (updraft_lock_0802674f80f3, wp_options) acquired
+3135270.486 (3) This backup task (0802674f80f3) is either complete or began over 2 days ago: ending (1641506313.9717, 1638371043) (existing jobdata keys: resume_interval, job_type, jobstatus, backup_time, job_time_ms, service, split_every, maxzipbatch, job_file_entities, option_cache, uploaded_lastreset, one_shot, followsups_allowed, backup_database, backup_files, remote_storage_instances, runs_started, current_resumption, binzip, filecreating_substatus, files_enumerated_at, run_times, useful_checkins, sha1-plugins0, sha256-plugins0, sha1-themes0, sha256-themes0, sha1-uploads0, sha256-uploads0, sha1-others0, sha256-others0, backup_files_array, binsqldump, dbcreating_substatus, fetch_rows, sha1-db0, sha256-db0, uploading_substatus, prune, googledrive-s-7a47986bd99b0c6f2b491669cbcba017, uploaded_8e5be421506b9cb62666e610618e0a39, uploaded_googledrive-s-7a47986bd99b0c6f2b491669cbcba017-8e5be421506b9cb62666e610618e0a39, uploaded_1d30d370001c5584093ab9173ffcfdec, uploaded_googledrive-s-7a47986bd99b0c6f2b491669cbcba017-1d30d370001c5584093ab9173ffcfdec, uploaded_8bd7f4cf90cd271de5c34cf6b1a61b91, uploaded_googledrive-s-7a47986bd99b0c6f2b491669cbcba017-8bd7f4cf90cd271de5c34cf6b1a61b91, uploaded_9c20137e41edcd94d7be334954539d6a, uploaded_googledrive-s-7a47986bd99b0c6f2b491669cbcba017-9c20137e41edcd94d7be334954539d6a, warnings)

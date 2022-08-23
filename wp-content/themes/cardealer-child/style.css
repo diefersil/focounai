@@ -1,0 +1,194 @@
+/*
+ Theme Name:   CarDealer Child
+ Theme URI:    https://cardealer.potenzaglobalsolutions.com/
+ Description:  Car Dealer - Child Theme.
+ Author:       TeamWP @Potenza Global Solutions
+ Author URI:   http://www.potenzaglobalsolutions.com
+ Template:     cardealer
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         one-column, two-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, post-formats, rtl-language-support, threaded-comments, translation-ready, e-commerce, blog, grid-layout
+ Text Domain:  cardealer-child
+*/
+
+/*-------------------------------------------Home--------------------------------------------------*/
+
+
+
+/*Ultimos destauqes*/
+.car-item-2 {
+    margin-bottom: 40px;
+    background:#F6F6F6;
+    border-radius: 10px;
+}
+
+.car-item .car-list .list-inline {
+    background:#F6F6F6;
+    border:none;
+}
+
+.car-item-2 .car-list {
+    border:0;
+}
+
+.car-item-2 img {
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+.car-item .car-content a {
+    text-transform: uppercase;
+}
+
+.car-item .separator {
+    display: none;
+}
+
+
+/*Makes Count*/
+
+.search-logo-box span{
+    display: none !important;
+}
+
+/*List Atributes*/
+
+.home .vehicle-attributes-list{
+    display: none !important;
+}
+
+
+/*-------------------------------------------Carros-------------------------------------------------*/
+
+
+/*Sidebar*/
+#cars_search-1, .financing_calculator, .cars-top-filters-box {
+    display: none !important;
+}
+
+.header_intro_bg-image {
+    display: none !important;
+}
+
+.style-classic.car-item .car-content ul.car-bottom-actions.classic-grid li a {
+    color: #323232;
+    background: #FFE500;
+    padding: 6px 12px;
+    font-size: 13px;
+    margin-bottom: 0;
+    min-width: 84px;
+}
+
+/*-------------------------------------------Single-------------------------------------------------*/
+
+.slick-slide img {
+    cursor: pointer;
+}
+
+.car-details.car-detail-layout-modern-1 .slider-slick .slider-nav .slick-slide, .car-details .col-lg-12 .slider-slick .slider-nav .slick-slide {
+    cursor: pointer;
+}
+
+/*.car-details-sidebar h5, .car-details-sidebar h6 {
+    background:#FFE500 !important;
+}*/
+
+
+/*-------------------------------------------Institucional--------------------------------------------*/
+
+
+/*Testemunhos - Avatar*/
+.testimonial-block .col-lg-3 {
+    display: none;
+}
+
+.testimonial-block .col-lg-9 {
+    width: 100%;
+}
+
+@media(min-width:800px){
+    .testimonial-block .col-lg-9 {
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 10%;
+    }  
+}
+
+/*-------------------------------------------Footer-----------------------------------------------------*/
+
+
+
+img.footer-logo{
+    /*max-width: 170px !important;*/
+    margin: 30px 0 0 0;
+}
+
+.footer_bg-image {
+    background-color: #151515 !important;
+}
+#footer > .container > .row {
+    padding: 35px 0 !important;
+}
+
+.footer .widget_block{
+    margin-bottom: 0 !important;
+}
+
+
+/*-------------------Footer Zap---------------------------------------------*/
+
+
+@media(min-width: 800px){
+    .footer-contact{
+        max-width: 260px;
+        float:right;
+    }
+}
+
+/*-------------------Footer Zap---------------------------------------------*/
+
+.footer-zap{
+    margin-bottom: 20px;
+}
+
+.footer-zap a{
+    /*float: right;*/
+    min-width: 135px;
+    padding: 7px 7px;
+    border-radius:5px;
+    border: 1px solid white;
+    margin-bottom: 30px;
+}
+
+.footer-zap a:hover{
+    border: 1px solid #76C96A;
+}
+
+@media(max-width:800px){
+    .footer-zap a{
+        float:left !important;
+        margin-top: 40px;
+    }
+}
+
+.footer-zap a i {
+    color:#76C96A;
+    font-size: 18px;
+    max-width: 25px;
+    margin-right: 3px;
+    font-size: 18px;
+    margin-right: 3px;
+}
+
+/*-------------------------Footer Address----------------------------*/
+
+@media(min-width:800px){
+    .footer-address{
+        float:right;
+        max-width: 260px;
+        display: inline-block;
+        /*background:red;*/
+    }    
+}
+
