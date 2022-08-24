@@ -72,3 +72,14 @@ add_action( 'wp_enqueue_scripts', function() {
     }*/
 
 
+    /*function add_button($b) {
+        if ( is_singular() )
+            return do_shortcode('[SHORTCODE_ELEMENTOR id="12559"]');
+        else
+            return $b;
+    }
+    
+    
+    add_filter('the_title', 'add_button',10);*/
+
+
