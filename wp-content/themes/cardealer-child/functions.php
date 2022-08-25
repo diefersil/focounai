@@ -73,13 +73,42 @@ add_action( 'wp_enqueue_scripts', function() {
 
 
     /*function add_button($b) {
-        if ( is_singular() )
+        if ( is_single() ) {
             return do_shortcode('[SHORTCODE_ELEMENTOR id="12559"]');
-        else
+        } else{
             return $b;
+        }
+    }*/
+//add_filter('the_content', 'add_button',10);
+
+
+/*function theme_slug_filter_the_content( $content ) {
+    $custom_content = do_shortcode('[SHORTCODE_ELEMENTOR id="12559"]');
+    $custom_content .= $content;
+    return $custom_content;   
+}
+add_filter( 'the_content', 'theme_slug_filter_the_content' );*/
+
+
+function cardealer_vehicle_title() {
+    global $car_dealer_options;
+    $is_custom_cars_details_title  = ( isset( $car_dealer_options['vehicle-title-location'] ) ) ? $car_dealer_options['vehicle-title-location'] : false;
+    if ( $is_custom_cars_details_title === 'header' ) {
+        $year = get_the_terms(get_the_ID(), 'car_year' );
+        the_title( '<h2>', "<br/><span>" . $year[0]->name . "</span></h2>" );
+        echo do_shortcode('[SHORTCODE_ELEMENTOR id="12559"]');
     }
-    
-    
-    add_filter('the_title', 'add_button',10);*/
+}
+
+
+//remove_action( 'cardealer_list_car_title',  10 );
+
+add_action( 'cardealer_list_car_title', 'new_home_title', 1 );
+ 
+function new_home_title(){
+    $year = get_the_terms(get_the_ID(), 'car_year' );
+    echo '<a href="' . esc_url( get_the_permalink() ) . '">' . esc_attr( get_the_title() ) . '</a>';
+    echo '<a href="' . esc_url( get_the_permalink() ) . '">' . $year[0]->name . '</a>';
+}
 
 
