@@ -59,7 +59,7 @@
 }
 
 
-/*-------------------------------------------Carros-------------------------------------------------*/
+/*-------------------------------------------Lista de Carros-------------------------------------------------*/
 
 
 /*Sidebar*/
@@ -80,6 +80,10 @@
     min-width: 84px;
 }
 
+.vehicle-attributes-list{ 
+    display:none;
+}
+
 /*-------------------------------------------Single-------------------------------------------------*/
 
 .slick-slide img {
@@ -97,6 +101,24 @@
 .car-detail-post-option{
     display: none !important;
 }
+
+section.car-details.page-section-ptb.car-detail-layout-3 h2 span{
+    font-size: 25px !important;
+    margin-top: -20px !important;
+    display: none;
+}
+
+section.car-details.page-section-ptb.car-detail-layout-3 .dealer-form-btn{
+    display: none !important;
+}
+
+.details-nav{
+    display: none !important;
+}
+
+section.car-details.page-section-ptb.car-detail-layout-3 .dealer-form-btn p{
+    display: none !important;
+} 
 
 
 
