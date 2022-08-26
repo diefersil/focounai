@@ -103,9 +103,9 @@ function cardealer_vehicle_title() {
 
 //remove_action( 'cardealer_list_car_title',  10 );
 
-add_action( 'cardealer_list_car_title', 'new_home_title', 1 );
- 
+add_action( 'cardealer_list_car_title', 'new_home_title', 1 ); 
 function new_home_title(){
+    remove_action( 'cardealer_list_car_title', 'cardealer_list_car_link_title',5 );
     $year = get_the_terms(get_the_ID(), 'car_year' );
     echo '<a href="' . esc_url( get_the_permalink() ) . '">' . esc_attr( get_the_title() ) . '</a>';
     echo '<a href="' . esc_url( get_the_permalink() ) . '">' . $year[0]->name . '</a>';
