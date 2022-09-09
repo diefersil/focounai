@@ -112,3 +112,12 @@ function new_home_title(){
 }
 
 
+
+add_shortcode ('geturl', 'get_current_page_url');
+function get_current_page_url() {
+	$pageURL = 'https://';
+	$pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+	return $pageURL;
+}
+
+
