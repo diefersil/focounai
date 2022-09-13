@@ -85,7 +85,7 @@ global $car_dealer_options;
             <div class="clearfix"></div>
             <div class="col-lg-8 col-md-8 col-sm-7">
                 <?php get_template_part( 'template-parts/cars/single-car/tabs/tabs' ); ?>
-                <h6>Características</h6>
+                <h6 style="font-weight:bold">Observações</h6>
                 <?php the_excerpt(); ?>
                 <?php get_template_part( 'template-parts/cars/single-car/related' ); ?>
             </div>
