@@ -96,7 +96,7 @@ function cardealer_vehicle_title() {
     if ( $is_custom_cars_details_title === 'header' ) {
         $year = get_the_terms(get_the_ID(), 'car_year' );
         the_title( '<h2>', "<br/><span>" . $year[0]->name . "</span></h2>" );
-        echo do_shortcode('[SHORTCODE_ELEMENTOR id="12559"]');
+        echo do_shortcode('[elementor-template id="12616"]');
     }
 }
 
@@ -116,7 +116,7 @@ function new_home_title(){
 add_shortcode ('car_wa', 'car_url');
 function car_url() {
     $pageURL = "https://api.whatsapp.com/send?phone=5538999605010&text=Olá, estou no site da Foco Veículos. Estou vendo o veículo: ";
-    $pageURL .= get_the_title() . "%0D" . get_the_permalink();
+    $pageURL .= get_the_title() . " %0D" . get_the_permalink();
 	return $pageURL;
 }
 
