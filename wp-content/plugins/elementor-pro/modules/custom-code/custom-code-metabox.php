@@ -309,16 +309,7 @@ class Custom_Code_Metabox extends Assets_Base {
 		// The method, support fields only.
 		$this->print_metabox( $fields );
 
-		/**
-		 * Elementor metabox render.
-		 *
-		 * Fires before custom scripts are enqueued, since enqueue depends on
-		 * render handlers.
-		 *
-		 * @param Custom_Code_Metabox $this An instance of custom code metabox.
-		 * @param int|false           $id   The ID of the current WordPress post.
-		 *                                  False if post is not set.
-		 */
+		// Render before enqueue, since enqueue depends on render handlers.
 		do_action( 'elementor-pro/metabox/render', $this, get_the_ID() );
 
 		// Init codemirror.

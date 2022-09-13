@@ -113,11 +113,18 @@ function new_home_title(){
 
 
 
-add_shortcode ('geturl', 'get_current_page_url');
-function get_current_page_url() {
-	$pageURL = 'https://';
-	$pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+add_shortcode ('car_wa', 'car_url');
+function car_url() {
+    $pageURL = "https://api.whatsapp.com/send?phone=5538999605010&text=Olá, estou no site da Foco Veículos. Estou vendo o veículo: ";
+    $pageURL .= get_the_title() . "%0D" . get_the_permalink();
 	return $pageURL;
 }
+
+add_shortcode ('car_face', 'car_face_url');
+function car_face_url() {
+    $pageURL = "https://www.facebook.com/sharer/sharer.php?u=" . get_the_permalink();
+	return $pageURL;
+}
+
 
 

@@ -142,15 +142,12 @@ class Module extends Module_Base {
 			'keywords' => [ 'template', 'popup', 'library' ],
 		];
 
-		// Backwards compatibility - Remove after ED-4826 is merged.
-		if ( empty( $categories['create']['items']['popup'] ) ) {
-			$categories['create']['items']['popups'] = [
-				'title' => esc_html__( 'Add New Popup', 'elementor-pro' ),
-				'icon' => 'plus-circle-o',
-				'url' => $this->get_admin_url() . '#add_new',
-				'keywords' => [ 'template', 'theme', 'popup', 'new', 'create' ],
-			];
-		}
+		$categories['create']['items']['popups'] = [
+			'title' => esc_html__( 'Add New Popup', 'elementor-pro' ),
+			'icon' => 'plus-circle-o',
+			'url' => $this->get_admin_url() . '#add_new',
+			'keywords' => [ 'template', 'theme', 'popup', 'new', 'create' ],
+		];
 
 		return $categories;
 

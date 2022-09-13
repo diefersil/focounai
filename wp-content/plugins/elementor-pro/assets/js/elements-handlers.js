@@ -1,4 +1,4 @@
-/*! elementor-pro - v3.7.3 - 31-07-2022 */
+/*! elementor-pro - v3.6.4 - 15-03-2022 */
 "use strict";
 (self["webpackChunkelementor_pro"] = self["webpackChunkelementor_pro"] || []).push([["elements-handlers"],{
 
@@ -115,20 +115,19 @@ exports.close = close;
 /*!********************************************************!*\
   !*** ../assets/dev/js/frontend/utils/icons/manager.js ***!
   \********************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__unused_webpack_module, exports) => {
 
 
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "../node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 exports["default"] = void 0;
 
-var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "../node_modules/@babel/runtime/helpers/defineProperty.js"));
-
 class IconsManager {
+  static symbolsContainer;
+  static iconsUsageList = [];
+
   constructor(elementsPrefix) {
     this.prefix = `${elementsPrefix}-`;
 
@@ -175,8 +174,6 @@ class IconsManager {
 }
 
 exports["default"] = IconsManager;
-(0, _defineProperty2.default)(IconsManager, "symbolsContainer", void 0);
-(0, _defineProperty2.default)(IconsManager, "iconsUsageList", []);
 
 /***/ }),
 
@@ -439,7 +436,6 @@ class _default extends elementorModules.frontend.Document {
   }
 
   showModal(avoidMultiple) {
-    // eslint-disable-next-line @wordpress/no-unused-vars-before-return
     const settings = this.getDocumentSettings();
 
     if (!this.isEdit) {
@@ -530,17 +526,7 @@ class _default extends elementorModules.frontend.Document {
       if (!modal) {
         const settings = this.getDocumentSettings(),
               id = this.getSettings('id'),
-              triggerPopupEvent = eventType => {
-          const event = 'elementor/popup/' + eventType;
-          elementorFrontend.elements.$document.trigger(event, [id, this]); // TODO: Use `elementorFrontend.utils.events.dispatch` when it's in master.
-
-          window.dispatchEvent(new CustomEvent(event, {
-            detail: {
-              id,
-              instance: this
-            }
-          }));
-        };
+              triggerPopupEvent = eventType => elementorFrontend.elements.$document.trigger('elementor/popup/' + eventType, [id, this]);
 
         let classes = 'elementor-popup-modal';
 

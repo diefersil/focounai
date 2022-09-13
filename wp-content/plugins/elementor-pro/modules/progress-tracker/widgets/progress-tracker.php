@@ -591,8 +591,6 @@ class ProgressTracker extends Base_Widget {
 				],
 			]
 		);
-
-		$this->end_controls_section();
 	}
 
 	protected function register_controls() {

@@ -36,18 +36,12 @@ class API {
 	 * @return \stdClass|\WP_Error
 	 */
 	private static function remote_post( $body_args = [] ) {
-		$use_home_url = true;
-
 		/**
-		 * The license API uses `home_url()` function to retrieve the URL. This hook allows
-		 * developers to use `get_site_url()` instead of `home_url()` to set the URL.
+		 * Allow third party plugins to set the url to get_site_url() instead of home_url().
 		 *
-		 * When set to `true` (default) it uses `home_url()`.
-		 * When set to `false` it uses `get_site_url()`.
-		 *
-		 * @param boolean $use_home_url Whether to use `home_url()` or `get_site_url()`.
+		 * @param boolean Whether to use home_url() or get_site_url().
 		 */
-		$use_home_url = apply_filters( 'elementor_pro/license/api/use_home_url', $use_home_url );
+		$use_home_url = apply_filters( 'elementor_pro/license/api/use_home_url', true );
 
 		$body_args = wp_parse_args(
 			$body_args,
@@ -164,7 +158,6 @@ class API {
 		];
 
 		$license_key = Admin::get_license_key();
-
 		if ( empty( $license_key ) ) {
 			return $license_data_error;
 		}
@@ -235,6 +228,15 @@ class API {
 		}
 
 		return $info_data;
+	}
+
+	/**
+	 * @param $version
+	 *
+	 * @deprecated 2.7.0 Use `API::get_plugin_package_url()` method instead.
+	 */
+	public static function get_previous_package_url( $version ) {
+		return self::get_plugin_package_url( $version );
 	}
 
 	public static function get_plugin_package_url( $version ) {
@@ -322,12 +324,9 @@ class API {
 				'<a href="https://go.elementor.com/upgrade/" target="_blank">',
 				'</a>'
 			),
-			'expired' => printf(
-				/* translators: 1: Bold text Open Tag, 2: Bold text closing tag, 3: Link open tag, 4: Link closing tag. */
-				esc_html__(
-					'%1$sOh no! Your Elementor Pro license has expired.%2$s Want to keep creating secure and high-performing websites? Renew your subscription to regain access to all of the Elementor Pro widgets, templates, updates & more. %3$sRenew now%4$s',
-					'elementor-pro'
-				),
+			'expired' => sprintf(
+			/* translators: 1: Bold text Open Tag, 2: Bold text closing tag, 3: Link open tag, 4: Link closing tag. */
+				esc_html__( '%1$sYour License Has Expired.%2$s %3$sRenew your license today%4$s to keep getting feature updates, premium support and unlimited access to the template library.', 'elementor-pro' ),
 				'<strong>',
 				'</strong>',
 				'<a href="https://go.elementor.com/renew/" target="_blank">',
