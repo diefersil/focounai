@@ -29,7 +29,7 @@ if ( ! function_exists( 'get_sold_query' ) ) {
 		$cars_order = 'date (post_date)';
 
 		if ( isset( $car_dealer_options['cars-per-page'] ) ) {
-			$per_page = $car_dealer_options['cars-per-page'];
+			$per_page = 60;
 		}
 		$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 		if ( isset( $params['cars_pp'] ) && ! empty( $params['cars_pp'] ) ) {
@@ -228,7 +228,7 @@ if ( ! function_exists( 'cardealer_cars_sold_ordering' ) ) {
 		}
 		// replace it with theme option.
 		if ( isset( $car_dealer_options['cars-per-page'] ) ) {
-			$per_page = $car_dealer_options['cars-per-page'];
+			$per_page = 60;
 		} else {
 			$per_page = 12;
 		}
