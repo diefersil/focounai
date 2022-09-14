@@ -12,6 +12,22 @@
  Text Domain:  cardealer-child
 */
 
+
+
+/*Header*/
+
+.search-btn{
+    display: none !important;
+}
+
+@media (max-width: 992px){
+    .mega-menu .menu-mobile-collapse-trigger {
+        margin-top: 0;
+        top: 35px;
+        right: 0px;
+    }
+}
+
 /*-------------------------------------------Home--------------------------------------------------*/
 
 
@@ -26,6 +42,10 @@
 [class*='col-'] > .car-item-2 {
     margin-bottom: 60px;
     display: inline-block;
+}
+
+[class*='col-'] > .car-item-2 img {
+    min-height: 278px !important;
 }
 
 .car-item .car-list .list-inline {
@@ -85,9 +105,35 @@
     min-width: 84px;
 }
 
-.vehicle-attributes-list{ 
+/*.vehicle-attributes-list{ 
     display:none;
 }
+
+
+
+.all-cars-list-arch  .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    max-width: 100%;
+    min-height: 183px !important;
+}
+
+.all-cars-list-arch .car-content a{
+    min-height:45px !important;
+}
+
+.style-classic.car-item .car-content ul.car-bottom-actions.classic-grid li a:hover, .style-classic.car-item 
+.car-content ul.car-bottom-actions.classic-grid li a {
+    max-height:35px !important;
+} 
+
+.car-bottom-actions .tooltip{
+    display:none !important;
+
+}
+
+.all-cars-list-arch .car-bottom-actions{
+    display: none !important;
+}*/
 
 /*-------------------------------------------Single-------------------------------------------------*/
 
