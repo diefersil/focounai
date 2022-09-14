@@ -23,6 +23,11 @@
     border-radius: 10px;
 }
 
+[class*='col-'] > .car-item-2 {
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
 .car-item .car-list .list-inline {
     background:#F6F6F6;
     border:none;
