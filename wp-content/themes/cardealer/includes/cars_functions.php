@@ -1968,7 +1968,7 @@ if ( ! function_exists( 'cardealer_grid_view_class' ) ) {
 			} elseif ( ( 'view-grid-right' === $getlayout ) || ( 'view-grid-masonry-right' === $getlayout ) ) {
 				$classes[] = 'col-lg-' . $col . ' col-md-' . $col . ' col-sm-' . $col . ' col-xs-6';
 			} elseif ( ( 'view-grid-full' === $getlayout ) || ( 'view-grid-masonry-full' === $getlayout ) ) {
-				$classes[] = 'col-lg-3 col-md-3 col-sm-3 col-xs-6';
+				$classes[] = 'col-lg-4 col-md-4 col-sm-3 col-xs-6';
 			}
 			if ( in_array( $getlayout, array( 'view-grid-masonry-left', 'view-grid-masonry-right', 'view-grid-masonry-full' ) ) ) { // phpcs:ignore WordPress.PHP.StrictInArray.MissingTrueStrict
 				$classes[] = 'masonry-item';

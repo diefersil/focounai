@@ -105,6 +105,21 @@
     min-width: 84px;
 }
 
+
+.all-cars-list-arch  .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    width: 100%;
+    min-height: 230px !important;
+    max-height: 230px !important;
+}
+
+.all-cars-list-arch .col-lg-4{
+    padding-right: 45px !important;
+    margin-bottom: 50px;
+
+}
+
+
 /*.vehicle-attributes-list{ 
     display:none;
 }
