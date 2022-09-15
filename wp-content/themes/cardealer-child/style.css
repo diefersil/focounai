@@ -120,36 +120,26 @@
 
 }
 
+/*Related*/
 
-/*.vehicle-attributes-list{ 
+.related-vehicle img.img-responsive {
+    min-height: 160px;
+    max-height: 160px;
+}
+
+.related-vehicle .car-content a{
+    min-height:40px;
+    font-size:14px;
+}
+
+.related-vehicle .vehicle-attributes-list{ 
     display:none;
 }
 
-
-
-.all-cars-list-arch  .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
-    display: block;
-    max-width: 100%;
-    min-height: 183px !important;
+.related-vehicle .car-bottom-actions{
+    display: none;
 }
 
-.all-cars-list-arch .car-content a{
-    min-height:45px !important;
-}
-
-.style-classic.car-item .car-content ul.car-bottom-actions.classic-grid li a:hover, .style-classic.car-item 
-.car-content ul.car-bottom-actions.classic-grid li a {
-    max-height:35px !important;
-} 
-
-.car-bottom-actions .tooltip{
-    display:none !important;
-
-}
-
-.all-cars-list-arch .car-bottom-actions{
-    display: none !important;
-}*/
 
 /*-------------------------------------------Single-------------------------------------------------*/
 
