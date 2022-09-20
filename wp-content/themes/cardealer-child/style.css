@@ -30,18 +30,22 @@
 
 /*-------------------------------------------Home--------------------------------------------------*/
 
+
+/*Search*/
+
+
 /*Ultimos destaques*/
 
 
 .home [class*='col-'] > .car-item {
     display: inline-block;
     border: 1px solid;
-    margin: 0 10px 40px 10px;
+    margin: 0 5px 40px 5px;
     border: 1px solid #e3e3e3;
 }
 
-.car-item .car-content {
-    padding: 0 20px;
+.home .car-item .car-content {
+    padding: 10px 20px;
     text-align: left;
 }
 
@@ -63,6 +67,33 @@
    color: #000 !important;
    display:none !important;
 }
+
+.home ul.car-bottom-actions.classic-grid {
+    padding: 0;
+    clear: both;
+    margin-top: 15px;
+    margin-left: 0;
+}
+
+.home ul.car-bottom-actions.classic-grid li {
+    list-style: none;
+    display: inline-block;
+    clear: both;
+    text-align: center;
+  }
+
+.home ul.car-bottom-actions.classic-grid li a {
+    color: #323232;
+    background: #FFE500;
+    padding: 6px 12px 6px 15px;
+    font-size: 13px;
+    margin-bottom: 0;
+    min-width: 84px;
+}
+
+.home ul.car-bottom-actions.classic-grid li a i {
+    padding-right: 8px;
+  }
 
 
 /*Makes Count*/
