@@ -257,6 +257,12 @@ $this->add_render_attribute( 'widget_wrapper', 'class', 'pgs_cars_carousel-wrapp
 							cardealer_get_cars_list_attribute();
 						}
 						?>
+						<ul class="car-bottom-actions classic-grid">
+							<?php
+							cardealer_classic_view_cars_overlay_link( get_the_ID() );
+							cardealer_classic_vehicle_video_link( get_the_ID() );
+							?>
+						</ul>
 					</div>
 				</div>
 			</div>

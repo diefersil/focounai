@@ -32,60 +32,37 @@
 
 /*Ultimos destaques*/
 
-.cdhl_vehicles-list_wrapper .col-sm-4 {
-    padding-left: 25px;
-    padding-right:25px;
-}
 
-.cdhl_vehicles-list_wrapper .car-item-2 {
-    margin-bottom: 40px;
-    background:#F6F6F6;
-    border-radius: 0px;
+.home [class*='col-'] > .car-item {
+    display: inline-block;
+    border: 1px solid;
+    margin: 0 10px 40px 10px;
     border: 1px solid #e3e3e3;
 }
 
-.cdhl_vehicles-list_wrapper [class*='col-'] > .car-item-2 {
-    margin-bottom: 60px;
-    display: inline-block;
+.car-item .car-content {
+    padding: 0 20px;
+    text-align: left;
 }
 
-.cdhl_vehicles-list_wrapper [class*='col-'] > .car-item-2 img {
-    min-height: 230px !important;
+.home .car-image img {
     max-height: 230px !important;
+    min-height: 230px !important;
 }
 
-.cdhl_vehicles-list_wrapper .car-item .car-list .list-inline {
-    background:#F6F6F6;
-    border:none;
+.home .vehicle-attributes-list ul li{
+    font-size: 12px;
+    line-height: 16px;
 }
 
-.cdhl_vehicles-list_wrapper .car-item-2 .car-list {
-    border:0;
-}
-
-.cdhl_vehicles-list_wrapper .car-item-2 img {
-   border-top-left-radius: 0;
-   border-top-right-radius: 0;
-}
-
-.cdhl_vehicles-list_wrapper .car-item .car-content a {
-    /*text-transform: uppercase;*/
-    padding: 0 35px;
-    text-align: center;
-}
-
-.cdhl_vehicles-list_wrapper .car-item .separator {
+.home .separator{ 
     display: none;
 }
 
-.cdhl_vehicles-list_wrapper .home-year{
+.home .home-year{
    color: #000 !important;
-   text-align: center;
+   display:none !important;
 }
-
-.cdhl_vehicles-list_wrapper .home-title{
-    min-height: 35px !important;
- }
 
 
 /*Makes Count*/
@@ -93,9 +70,6 @@
 .search-logo-box span{
     display: none !important;
 }
-
-/*List Atributes*/
-
 
 /*-------------------------------------------Lista de Carros-------------------------------------------------*/
 
@@ -117,7 +91,6 @@
     margin-bottom: 0;
     min-width: 84px;
 }
-
 
 .all-cars-list-arch  .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     display: block;
@@ -158,6 +131,7 @@
 
 .slick-slide img {
     cursor: pointer;
+    /*max-height: 350px;*/
 }
 
 .car-details.car-detail-layout-modern-1 .slider-slick .slider-nav .slick-slide, .car-details .col-lg-12 .slider-slick .slider-nav .slick-slide {
