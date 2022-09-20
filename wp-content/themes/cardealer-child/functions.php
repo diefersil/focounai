@@ -107,8 +107,12 @@ add_action( 'cardealer_list_car_title', 'new_home_title', 1 );
 function new_home_title(){
     remove_action( 'cardealer_list_car_title', 'cardealer_list_car_link_title',5 );
     $year = get_the_terms(get_the_ID(), 'car_year' );
-    echo '<a href="' . esc_url( get_the_permalink() ) . '">' . esc_attr( get_the_title() ) . '</a>';
-    echo '<a href="' . esc_url( get_the_permalink() ) . '">' . $year[0]->name . '</a>';
+    $price = get_the_terms(get_the_ID(), 'car_price' );
+    echo '<a class=home-title href="' . esc_url( get_the_permalink() ) . '">' . esc_attr( get_the_title() ) . '</a>';
+    echo '<a class=home-year href="' . esc_url( get_the_permalink() ) . '">' . $year[0]->name . '</a>';
+    //echo cardealer_get_car_price();
+
+    //print($price);
 }
 
 
@@ -124,6 +128,13 @@ add_shortcode ('car_face', 'car_face_url');
 function car_face_url() {
     $pageURL = "https://www.facebook.com/sharer/sharer.php?u=" . get_the_permalink();
 	return $pageURL;
+}
+
+add_shortcode('home_cars', 'get_cars');
+function get_cars(){
+    echo "<div class='all-cars-list-arch'>";
+	    get_template_part( 'template-parts/cars/content', 'cars' );
+	echo "</div>"; 
 }
 
 

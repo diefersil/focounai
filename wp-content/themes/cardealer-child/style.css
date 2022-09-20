@@ -30,45 +30,62 @@
 
 /*-------------------------------------------Home--------------------------------------------------*/
 
-
-
 /*Ultimos destaques*/
-.car-item-2 {
-    margin-bottom: 40px;
-    background:#F6F6F6;
-    border-radius: 10px;
+
+.cdhl_vehicles-list_wrapper .col-sm-4 {
+    padding-left: 25px;
+    padding-right:25px;
 }
 
-[class*='col-'] > .car-item-2 {
+.cdhl_vehicles-list_wrapper .car-item-2 {
+    margin-bottom: 40px;
+    background:#F6F6F6;
+    border-radius: 0px;
+    border: 1px solid #e3e3e3;
+}
+
+.cdhl_vehicles-list_wrapper [class*='col-'] > .car-item-2 {
     margin-bottom: 60px;
     display: inline-block;
 }
 
-[class*='col-'] > .car-item-2 img {
-    min-height: 278px !important;
+.cdhl_vehicles-list_wrapper [class*='col-'] > .car-item-2 img {
+    min-height: 230px !important;
+    max-height: 230px !important;
 }
 
-.car-item .car-list .list-inline {
+.cdhl_vehicles-list_wrapper .car-item .car-list .list-inline {
     background:#F6F6F6;
     border:none;
 }
 
-.car-item-2 .car-list {
+.cdhl_vehicles-list_wrapper .car-item-2 .car-list {
     border:0;
 }
 
-.car-item-2 img {
-   border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
+.cdhl_vehicles-list_wrapper .car-item-2 img {
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
 }
 
-.car-item .car-content a {
-    text-transform: uppercase;
+.cdhl_vehicles-list_wrapper .car-item .car-content a {
+    /*text-transform: uppercase;*/
+    padding: 0 35px;
+    text-align: center;
 }
 
-.car-item .separator {
+.cdhl_vehicles-list_wrapper .car-item .separator {
     display: none;
 }
+
+.cdhl_vehicles-list_wrapper .home-year{
+   color: #000 !important;
+   text-align: center;
+}
+
+.cdhl_vehicles-list_wrapper .home-title{
+    min-height: 35px !important;
+ }
 
 
 /*Makes Count*/
@@ -78,10 +95,6 @@
 }
 
 /*List Atributes*/
-
-.home .vehicle-attributes-list{
-    display: none !important;
-}
 
 
 /*-------------------------------------------Lista de Carros-------------------------------------------------*/
@@ -177,11 +190,7 @@ section.car-details.page-section-ptb.car-detail-layout-3 .dealer-form-btn p{
     display: none !important;
 } 
 
-
-
-
 /*-------------------------------------------Institucional--------------------------------------------*/
-
 
 /*Testemunhos - Avatar*/
 .testimonial-block .col-lg-3 {
@@ -202,8 +211,6 @@ section.car-details.page-section-ptb.car-detail-layout-3 .dealer-form-btn p{
 
 /*-------------------------------------------Footer-----------------------------------------------------*/
 
-
-
 img.footer-logo{
     /*max-width: 170px !important;*/
     margin: 30px 0 0 0;
@@ -220,9 +227,7 @@ img.footer-logo{
     margin-bottom: 0 !important;
 }
 
-
 /*-------------------Footer Zap---------------------------------------------*/
-
 
 @media(min-width: 800px){
     .footer-contact{
@@ -276,4 +281,3 @@ img.footer-logo{
         /*background:red;*/
     }    
 }
-

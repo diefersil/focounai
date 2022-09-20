@@ -2587,7 +2587,9 @@ if ( ! function_exists( 'cardealer_cars_get_catalog_ordering_args' ) ) {
 			if ( isset( $params['cars_pp'] ) && ! empty( $params['cars_pp'] ) ) {
 				$per_page = $params['cars_pp'];
 			} elseif ( isset( $car_dealer_options['cars-per-page'] ) && ! empty( $car_dealer_options['cars-per-page'] ) ) {
-				$per_page = 30;
+				
+					$per_page = 9;
+				
 			} else {
 				$per_page = 12;
 			}
