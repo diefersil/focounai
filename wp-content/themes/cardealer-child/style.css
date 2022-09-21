@@ -30,16 +30,12 @@
 
 /*-------------------------------------------Home--------------------------------------------------*/
 
-
 /*Search*/
-
 
 /*Ultimos destaques*/
 
 
 .home [class*='col-'] > .car-item {
-    display: inline-block;
-    border: 1px solid;
     margin: 0 5px 40px 5px;
     border: 1px solid #e3e3e3;
 }
@@ -198,6 +194,7 @@ section.car-details.page-section-ptb.car-detail-layout-3 .dealer-form-btn p{
 /*-------------------------------------------Institucional--------------------------------------------*/
 
 /*Testemunhos - Avatar*/
+
 .testimonial-block .col-lg-3 {
     display: none;
 }
