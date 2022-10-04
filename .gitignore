@@ -1,5 +1,5 @@
 _trash/
-_create/
+/_create/
 *.txt
 *.docx
 .htaccess
