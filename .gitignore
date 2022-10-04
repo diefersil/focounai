@@ -11,7 +11,7 @@ _create/
 # Created by https://www.toptal.com/developers/gitignore/api/wordpress
 # Edit at https://www.toptal.com/developers/gitignore?templates=wordpress
 
-### WordPress ###
+## WordPress ###
 # Core
 #
 # Note: if you want to stage/commit WP core files
