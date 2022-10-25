@@ -22,6 +22,10 @@ body, h1,h2,h3,h4,h5,h6,p,div{
 
 /*Header*/
 
+.icon-zap img{ 
+    max-width: 60px;
+}
+
 .search-btn{
     display: none !important;
 }
@@ -35,6 +39,18 @@ body, h1,h2,h3,h4,h5,h6,p,div{
 }
 
 /*-------------------------------------------Home--------------------------------------------------*/
+
+
+.home li[data-tabs="all_vehicles-47df"]{
+    display: none !important;
+}
+
+
+.home .car-total.pull-right {
+    display:none !important;
+}
+
+
 
 .home-title{
     text-transform: uppercase !important;
@@ -232,6 +248,10 @@ section.car-details.page-section-ptb.car-detail-layout-3 .dealer-form-btn p{
 }
 
 /*-------------------------------------------Footer-----------------------------------------------------*/
+
+.footer{
+    margin-top: 0px !important;
+}
 
 img.footer-logo{
     /*max-width: 170px !important;*/
