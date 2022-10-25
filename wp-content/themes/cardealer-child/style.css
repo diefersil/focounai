@@ -13,6 +13,12 @@
 */
 
 
+/*General*/
+
+body, h1,h2,h3,h4,h5,h6,p,div{
+    font-family: 'Montserrat', sans-serif !important; 
+}
+
 
 /*Header*/
 
@@ -30,6 +36,12 @@
 
 /*-------------------------------------------Home--------------------------------------------------*/
 
+.home-title{
+    text-transform: uppercase !important;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
 /*Search*/
 
 /*Ultimos destaques*/
@@ -37,17 +49,21 @@
 
 .home [class*='col-'] > .car-item {
     margin: 0 5px 40px 5px;
-    border: 1px solid #e3e3e3;
+    border: 1px solid #ccc !important;
+    border-radius: 10px;
 }
 
 .home .car-item .car-content {
-    padding: 10px 20px 10px 30px !important;
+    padding: 10px 20px 25px 30px !important;
     text-align: left;
+    border: bottom radius 10px; ;
 }
 
 .home .car-image img {
     max-height: 230px !important;
     min-height: 230px !important;
+    border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .home .vehicle-attributes-list ul li{
@@ -89,6 +105,10 @@
 
 .home ul.car-bottom-actions.classic-grid li a i {
     padding-right: 8px;
+  }
+
+  .home ul.car-bottom-actions.classic-grid li a[data-original-title="Ver"]{
+    display:noneb;
   }
 
 
