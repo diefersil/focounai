@@ -210,7 +210,7 @@ body, h1,h2,h3,h4,h5,h6,p,div {
 }
 
 @media(max-width:800px){
-.all-cars-list-arch .car-item.gray-bg.text-center.style-classic, .home .car-item.gray-bg.text-center.style-classic {
+.all-cars-list-arch .car-item.gray-bg.text-center.style-classic {
     height: 440px !important;
 }
 
