@@ -15,10 +15,9 @@
 
 /*General*/
 
-body, h1,h2,h3,h4,h5,h6,p,div{
+body, h1,h2,h3,h4,h5,h6,p,div {
     font-family: 'Montserrat', sans-serif !important; 
 }
-
 
 /*Header*/
 
@@ -41,6 +40,8 @@ body, h1,h2,h3,h4,h5,h6,p,div{
 /*-------------------------------------------Home--------------------------------------------------*/
 
 
+/*Seach*/
+
 .home li[data-tabs="all_vehicles-47df"]{
     display: none !important;
 }
@@ -50,6 +51,11 @@ body, h1,h2,h3,h4,h5,h6,p,div{
     display:none !important;
 }
 
+@media (max-width: 992px){
+    .slider-content.vehicle-search-section .search-tab .cardealer-tabcontent {
+        padding-top: 20px !important;
+    }
+}
 
 
 .home-title{
@@ -165,9 +171,47 @@ body, h1,h2,h3,h4,h5,h6,p,div{
 .all-cars-list-arch .col-lg-4{
     padding-right: 23px !important;
     padding-left: 23px !important;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
 }
+
+
+@media(max-width:800px){
+    .all-cars-list-arch .col-lg-4{
+        margin-bottom: 30px;
+    }
+}
+
+.all-cars-list-arch .car-item .car-content {
+    padding: 20px 20px 25px 30px !important;
+    text-align: left;
+}
+
+.all-cars-list-arch .car-item .car-content a {
+   text-transform: uppercase;
+}
+
+.all-cars-list-arch .car-item .car-content a[data-toggle="tooltip"] {
+    text-transform:capitalize !important;
+ }
+
+.all-cars-list-arch [class*='col-'] > .car-item {
+    margin: 0 5px 40px 5px;
+    border: 1px solid #ccc !important;
+    border-radius: 10px;
+}
+
+.all-cars-list-arch .car-item .car-image img {
+    max-height: 230px !important;
+    min-height: 230px !important;
+    border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.car-item.gray-bg.text-center.style-classic {
+    height: 440px !important;
+}
+
 
 /*Related*/
 
@@ -315,11 +359,11 @@ img.footer-logo{
 
 /*-------------------------Footer Address----------------------------*/
 
-@media(min-width:800px){
+/*@media(min-width:800px){
     .footer-address{
         float:right;
         max-width: 260px;
         display: inline-block;
-        /*background:red;*/
+       
     }    
-}
+}*/
