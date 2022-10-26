@@ -137,38 +137,3 @@ function get_cars(){
 	echo "</div>"; 
 }
 
-?>
-
-<?php if(is_page(8)){ ?>
-<script>
-
-// set same height for every car-carousel items
-function setMinHeight( minheight ) {
-	jQuery('.owl-carousel').each(function(i,e){
-		if(!jQuery(this).hasClass("related-vehicle")){
-			var oldminheight = minheight;
-			jQuery(e).find('.item').each(function(i,e){
-				minheight = jQuery(e).height() > minheight ? jQuery(e).height() : minheight;
-			});
-			//jQuery(e).find('.car-item').css("min-height",minheight + "px");
-			minheight = oldminheight;
-		}
-	});
-
-	jQuery('.pgs_cars_carousel-items').each(function(i,e){
-		if(!jQuery(this).hasClass("related-vehicle")){
-			var oldminheight = minheight;
-			jQuery(e).find('.item').each(function(i,e){
-				minheight = jQuery(e).height() > minheight ? jQuery(e).height() : minheight;
-			});
-			//jQuery(e).find('.car-item').css("min-height",minheight + "px");
-			//minheight = oldminheight;
-		}
-	});
-};
-
-</script>
-<?php } ?>
-
-
-
