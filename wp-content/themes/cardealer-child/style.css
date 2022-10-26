@@ -209,7 +209,7 @@ body, h1,h2,h3,h4,h5,h6,p,div {
     border-top-left-radius: 10px;
 }
 
-.all-cars-list-arch .car-item.gray-bg.text-center.style-classic {
+/*.all-cars-list-arch .car-item.gray-bg.text-center.style-classic {
     height: 440px !important;
 }
 
@@ -217,7 +217,7 @@ body, h1,h2,h3,h4,h5,h6,p,div {
 .all-cars-list-arch .car-item.gray-bg.text-center.style-classic {
     height: auto !important;
 }
-}
+}*/
 
 
 /*Related*/
