@@ -330,12 +330,12 @@ img.footer-logo{
 
 /*-------------------Footer Zap---------------------------------------------*/
 
-.footer-zap{
+/*.footer-zap{
     margin-bottom: 20px;
 }
 
 .footer-zap a{
-    /*float: right;*/
+
     min-width: 135px;
     padding: 7px 7px;
     border-radius:5px;
@@ -361,7 +361,7 @@ img.footer-logo{
     margin-right: 3px;
     font-size: 18px;
     margin-right: 3px;
-}
+}*/
 
 /*-------------------------Footer Address----------------------------*/
 
