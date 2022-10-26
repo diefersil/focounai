@@ -238,6 +238,10 @@ body, h1,h2,h3,h4,h5,h6,p,div {
 
 /*-------------------------------------------Single-------------------------------------------------*/
 
+.single span.new-price{ 
+    font-size: 60px;
+}
+
 .slick-slide img {
     cursor: pointer;
     /*max-height: 350px;*/
