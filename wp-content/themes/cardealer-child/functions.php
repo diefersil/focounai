@@ -139,7 +139,7 @@ function get_cars(){
 
 ?>
 
-<?php if(is_page(8)){?>
+<?php if(is_page(8)){ ?>
 <script>
 
 // set same height for every car-carousel items
