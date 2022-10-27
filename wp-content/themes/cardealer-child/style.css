@@ -143,6 +143,10 @@ body, h1,h2,h3,h4,h5,h6,p,div {
 
 /*-------------------------------------------Lista de Carros-------------------------------------------------*/
 
+.product-listing .content.col-lg-12 .all-cars-list-arch, .product-listing .content.col-md-12 .all-cars-list-arch, .product-listing .content.col-sm-12 .all-cars-list-arch, .product-listing .content.masonry-main .all-cars-list-arch {
+    margin-top: 20px !important;
+}
+
 
 /*Sidebar*/
 #cars_search-1, .financing_calculator, .cars-top-filters-box {
