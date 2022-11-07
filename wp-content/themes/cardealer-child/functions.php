@@ -144,3 +144,12 @@ function get_cars(){
 	echo "</div>"; 
 }
 
+function after_title($title) {
+
+    if (is_single() ) {
+
+        echo do_shortcode('[elementor-template id="12616"]');
+
+   }
+add_filter( 'the_title', 'after_title' );
+
