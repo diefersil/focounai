@@ -2036,7 +2036,7 @@ function setMinHeight( minheight ) {
 			jQuery(e).find('.item').each(function(i,e){
 				minheight = jQuery(e).height() > minheight ? jQuery(e).height() : minheight;
 			});
-			//jQuery(e).find('.car-item').css("min-height",minheight + "px");
+			jQuery(e).find('.car-item').css("min-height",minheight + "px");
 			minheight = oldminheight;
 		}
 	});
