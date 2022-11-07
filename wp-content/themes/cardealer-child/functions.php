@@ -131,8 +131,6 @@ function car_url() {
 	return $pageURL;
 }
 
-https://api.whatsapp.com/send
-
 add_shortcode ('car_face', 'car_face_url');
 function car_face_url() {
     $pageURL = "https://www.facebook.com/sharer/sharer.php?u=" . get_the_permalink();
