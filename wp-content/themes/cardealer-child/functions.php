@@ -124,8 +124,8 @@ function car_url() {
 	return $pageURL;
 }
 
-add_shortcode ('car_wshare', 'car_urlshare');
-function car_urlshare() {
+add_shortcode ('car_wshare', 'car_url');
+function car_url() {
     $pageURL = "https://api.whatsapp.com/send?text=Olá, De uma olhada nesse carro da Foco Veículos: ";
     $pageURL .= get_the_title() . " %0D" . get_the_permalink();
 	return $pageURL;
@@ -143,13 +143,4 @@ function get_cars(){
 	    get_template_part( 'template-parts/cars/content', 'cars' );
 	echo "</div>"; 
 }
-
-function after_title($title) {
-
-    if (is_single() ) {
-
-        echo do_shortcode('[elementor-template id="12616"]');
-
-   }
-add_filter( 'the_title', 'after_title' );
 
