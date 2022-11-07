@@ -124,8 +124,8 @@ function car_url() {
 	return $pageURL;
 }
 
-add_shortcode ('car_wshare', 'car_url');
-function car_url() {
+add_shortcode ('car_wshare', 'car_urlshare');
+function car_urlshare() {
     $pageURL = "https://api.whatsapp.com/send?text=Olá, De uma olhada nesse carro da Foco Veículos: ";
     $pageURL .= get_the_title() . " %0D" . get_the_permalink();
 	return $pageURL;
