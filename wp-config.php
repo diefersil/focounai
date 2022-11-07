@@ -20,7 +20,7 @@
 
 // ** Configurações do MySQL - Você pode pegar estas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define( 'DB_NAME', 'foco2022' );
+define( 'DB_NAME', 'focoteste' );
 
 /** Usuário do banco de dados MySQL */
 define( 'DB_USER', 'root' );

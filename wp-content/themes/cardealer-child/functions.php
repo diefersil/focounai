@@ -124,6 +124,15 @@ function car_url() {
 	return $pageURL;
 }
 
+add_shortcode ('car_wshare', 'car_url');
+function car_url() {
+    $pageURL = "https://api.whatsapp.com/send?text=Olá, De uma olhada nesse carro da Foco Veículos: ";
+    $pageURL .= get_the_title() . " %0D" . get_the_permalink();
+	return $pageURL;
+}
+
+https://api.whatsapp.com/send
+
 add_shortcode ('car_face', 'car_face_url');
 function car_face_url() {
     $pageURL = "https://www.facebook.com/sharer/sharer.php?u=" . get_the_permalink();
