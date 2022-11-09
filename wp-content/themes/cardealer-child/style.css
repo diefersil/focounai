@@ -83,8 +83,8 @@ body, h1,h2,h3,h4,h5,h6,p,div {
 }
 
 .home .car-image img {
-    max-height: 230px !important;
-    min-height: 230px !important;
+    max-height: 255px !important;
+    min-height: 255px !important;
     border-top-left-radius: 10px;
     border-top-left-radius: 10px;
 }
