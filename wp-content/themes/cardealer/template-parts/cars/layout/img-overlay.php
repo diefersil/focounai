@@ -19,7 +19,7 @@ do_action( 'cardealer_car_loop_link_open', $cardealer_post_id, $is_hover_overlay
  */
 do_action( 'car_before_overlay_banner', $cardealer_post_id, true );
 
-$vehicle_catalog_image_size = ( isset( $car_dealer_options['vehicle-catalog-image-size'] ) && ! empty( $car_dealer_options['vehicle-catalog-image-size'] ) ) ? $car_dealer_options['vehicle-catalog-image-size'] : 'car_catalog_image';
+//$vehicle_catalog_image_size = ( isset( $car_dealer_options['vehicle-catalog-image-size'] ) && ! empty( $car_dealer_options['vehicle-catalog-image-size'] ) ) ? $car_dealer_options['vehicle-catalog-image-size'] : 'car_catalog_image';
 //$catalog_size               = ( wp_is_mobile() ) ? 'car_tabs_image' : $vehicle_catalog_image_size;
 
 echo wp_kses_post( cardealer_get_cars_image( $catalog_size, $cardealer_post_id ) );
