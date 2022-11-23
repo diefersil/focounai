@@ -169,8 +169,8 @@ body, h1,h2,h3,h4,h5,h6,p,div {
 .all-cars-list-arch  .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     display: block;
     width: 100%;
-    min-height: 230px !important;
-    max-height: 230px !important;
+    /*min-height: 230px !important;
+    max-height: 230px !important;*/
 }
 
 .all-cars-list-arch .col-lg-4{
@@ -207,8 +207,8 @@ body, h1,h2,h3,h4,h5,h6,p,div {
 }
 
 .all-cars-list-arch .car-item .car-image img {
-    max-height: 230px !important;
-    min-height: 230px !important;
+    /*max-height: 230px !important;
+    min-height: 230px !important;*/
     border-top-left-radius: 10px;
     border-top-left-radius: 10px;
 }
