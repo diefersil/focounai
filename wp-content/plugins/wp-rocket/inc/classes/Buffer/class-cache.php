@@ -332,7 +332,10 @@ class Cache extends Abstract_Buffer {
 		}
 
 		// Save the cache file.
-		rocket_put_content( $temp_filepath, $content );
+		if ( ! rocket_put_content( $temp_filepath, $content ) ) {
+			return;
+		}
+
 		rocket_direct_filesystem()->move( $temp_filepath, $cache_filepath, true );
 
 		if ( function_exists( 'gzencode' ) ) {
@@ -343,7 +346,10 @@ class Cache extends Abstract_Buffer {
 			 */
 			$compression_level = apply_filters( 'rocket_gzencode_level_compression', 6 );
 
-			rocket_put_content( $temp_gzip_filepath, gzencode( $content, $compression_level ) );
+			if ( ! rocket_put_content( $temp_gzip_filepath, gzencode( $content, $compression_level ) ) ) {
+				return;
+			}
+
 			rocket_direct_filesystem()->move( $temp_gzip_filepath, $gzip_filepath, true );
 		}
 	}
@@ -528,7 +534,7 @@ class Cache extends Abstract_Buffer {
 		// Get cache folder of host name.
 		if ( $logged_in_cookie && isset( $cookies[ $logged_in_cookie ] ) && ! $this->tests->has_rejected_cookie( $logged_in_cookie_no_hash ) ) {
 			if ( $this->config->get_config( 'common_cache_logged_users' ) ) {
-				return $this->cache_dir_path . $host . '-loggedin' . rtrim( $request_uri, '/' );
+				return $this->cache_dir_path . $host . '-loggedin-' . $this->config->get_config( 'secret_cache_key' ) . rtrim( $request_uri, '/' );
 			}
 
 			$user_key = explode( '|', $cookies[ $logged_in_cookie ] );

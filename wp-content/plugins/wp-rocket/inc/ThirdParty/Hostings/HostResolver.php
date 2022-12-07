@@ -85,6 +85,21 @@ class HostResolver {
 			return 'dreampress';
 		}
 
+		if ( isset( $_SERVER['X-LSCACHE'] ) ) {
+			self::$hostname = 'litespeed';
+			return 'litespeed';
+		}
+
+		if ( class_exists( '\WPaas\Plugin' ) ) {
+			self::$hostname = 'godaddy';
+			return 'godaddy';
+		}
+
+		if ( isset( $_SERVER['KINSTA_CACHE_ZONE'] ) ) {
+			self::$hostname = 'kinsta';
+			return 'kinsta';
+		}
+
 		return '';
 	}
 

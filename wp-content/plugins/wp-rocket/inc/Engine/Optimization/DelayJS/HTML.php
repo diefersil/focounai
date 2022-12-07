@@ -1,20 +1,25 @@
 <?php
-declare(strict_types=1);
+declare( strict_types=1 );
 
 namespace WP_Rocket\Engine\Optimization\DelayJS;
 
 use WP_Rocket\Admin\Options_Data;
+use WP_Rocket\Engine\Optimization\DynamicLists\DataManager;
 
 class HTML {
-
 	/**
 	 * Plugin options instance.
-	 *
-	 * @since  3.7
 	 *
 	 * @var Options_Data
 	 */
 	protected $options;
+
+	/**
+	 * DataManager instance
+	 *
+	 * @var DataManager
+	 */
+	private $data_manager;
 
 	/**
 	 * Array of excluded patterns from delay JS
@@ -23,33 +28,17 @@ class HTML {
 	 *
 	 * @var array
 	 */
-	protected $excluded = [
-		'nowprocket',
-		'/wp-includes/js/wp-embed.min.js',
-		'lazyLoadOptions',
-		'lazyLoadThumb',
-		'wp-rocket/assets/js/lazyload/(.*)',
-		'et_core_page_resource_fallback',
-		'window.\$us === undefined',
-		'js-extra',
-		'fusionNavIsCollapsed',
-		'/assets/js/smush-lazy-load.min.js',
-		'eio_lazy_vars',
-		'/ewww-image-optimizer/includes/lazysizes.min.js',
-		'/ewww-image-optimizer-cloud/includes/lazysizes.min.js',
-		'document\.body\.classList\.remove\("no-js"\)',
-		'document\.documentElement\.className\.replace\( \'no-js\', \'js\' \)',
-	];
+	protected $excluded = [];
 
 	/**
 	 * Creates an instance of HTML.
 	 *
-	 * @since  3.7
-	 *
 	 * @param Options_Data $options Plugin options instance.
+	 * @param DataManager  $data_manager DataManager instance.
 	 */
-	public function __construct( Options_Data $options ) {
-		$this->options = $options;
+	public function __construct( Options_Data $options, DataManager $data_manager ) {
+		$this->options      = $options;
+		$this->data_manager = $data_manager;
 	}
 
 	/**
@@ -67,6 +56,8 @@ class HTML {
 			return $html;
 		}
 
+		$this->set_exclusions();
+
 		$this->excluded = array_merge( $this->excluded, $this->options->get( 'delay_js_exclusions', [] ) );
 
 		/**
@@ -78,7 +69,7 @@ class HTML {
 		 */
 		$this->excluded = apply_filters( 'rocket_delay_js_exclusions', $this->excluded );
 		$this->excluded = array_map(
-			function( $value ) {
+			function ( $value ) {
 				return str_replace(
 					[ '+', '?ver', '#' ],
 					[ '\+', '\?ver', '\#' ],
@@ -99,6 +90,7 @@ class HTML {
 	 * @return bool
 	 */
 	public function is_allowed(): bool {
+
 		if ( rocket_bypass() ) {
 			return false;
 		}
@@ -135,7 +127,14 @@ class HTML {
 	 * @return string
 	 */
 	private function parse( $html ): string {
-		$replaced_html = preg_replace_callback( '/<\s*script\s*(?<attr>[^>]*?)?>(?<content>.*?)?<\s*\/\s*script\s*>/ims', [ $this, 'replace_scripts' ], $html );
+		$replaced_html = preg_replace_callback(
+			'/<\s*script\s*(?<attr>[^>]*?)?>(?<content>.*?)?<\s*\/\s*script\s*>/ims',
+			[
+				$this,
+				'replace_scripts',
+			],
+			$html
+		);
 
 		if ( empty( $replaced_html ) ) {
 			return $html;
@@ -165,7 +164,12 @@ class HTML {
 		$delay_js        = $matches[0];
 
 		if ( ! empty( $matches['attr'] ) ) {
-			if ( false !== strpos( $matches['attr'], 'application/ld+json' ) ) {
+
+			if (
+				strpos( $matches['attr'], 'type=' ) !== false
+				&&
+				! preg_match( '/type\s*=\s*["\'](?:text|application)\/(?:(?:x\-)?javascript|ecmascript|jscript)["\']|type\s*=\s*["\'](?:module)[ "\']/i', $matches['attr'] )
+			) {
 				return $matches[0];
 			}
 
@@ -177,5 +181,67 @@ class HTML {
 		}
 
 		return preg_replace( '/<script/i', '<script type="rocketlazyloadscript"', $delay_js, 1 );
+	}
+
+	/**
+	 * Move meta charset to head if not found to the top of page content.
+	 *
+	 * @since 3.9.4
+	 *
+	 * @param string $html Html content.
+	 *
+	 * @return string
+	 */
+	public function move_meta_charset_to_head( $html ): string {
+		$meta_pattern = "#<meta[^h]*(http-equiv[^=]*=[^\'\"]*[\'\" ]Content-Type[\'\"][ ]*[^>]*|)(charset[^=]*=[ ]*[\'\" ]*[^\'\"> ][^\'\">]+[^\'\"> ][\'\" ]*|charset[^=]*=*[^\'\"> ][^\'\">]+[^\'\"> ])([^>]*|)>(?=.*</head>)#Usmi";
+
+		if ( ! preg_match( $meta_pattern, $html, $matches ) ) {
+			return $html;
+		}
+
+		$replaced_html = preg_replace( "$meta_pattern", '', $html );
+
+		if ( empty( $replaced_html ) ) {
+			return $html;
+		}
+
+		if ( preg_match( '/<head\b/i', $replaced_html ) ) {
+			$replaced_html = preg_replace( '/(<head\b[^>]*?>)/i', "\${1}${matches[0]}", $replaced_html, 1 );
+
+			if ( empty( $replaced_html ) ) {
+				return $html;
+			}
+
+			return $replaced_html;
+		}
+
+		if ( preg_match( '/<html\b/i', $replaced_html ) ) {
+			$replaced_html = preg_replace( '/(<html\b[^>]*?>)/i', "\${1}${matches[0]}", $replaced_html, 1 );
+
+			if ( empty( $replaced_html ) ) {
+				return $html;
+			}
+
+			return $replaced_html;
+		}
+
+		$replaced_html = preg_replace( '/(<\w+)/', "${matches[0]}\${1}", $replaced_html, 1 );
+
+		if ( empty( $replaced_html ) ) {
+			return $html;
+		}
+
+		return $replaced_html;
+	}
+
+	/**
+	 * Get exclusions
+	 *
+	 * @return void
+	 */
+	private function set_exclusions() {
+		$lists = $this->data_manager->get_lists();
+
+		$this->excluded = isset( $lists->delay_js_exclusions ) ? $lists->delay_js_exclusions : [];
 	}
 }

@@ -47,6 +47,10 @@ class Purge {
 	 * @return void
 	 */
 	public function purge_url( $url, $pagination = false ) {
+		if ( ! is_string( $url ) ) {
+			return;
+		}
+
 		global $wp_rewrite;
 
 		$parsed_url = $this->parse_url( $url );
@@ -160,10 +164,16 @@ class Purge {
 	 * @param WP_Post $post Post object.
 	 */
 	public function purge_post_terms_urls( WP_Post $post ) {
-		foreach ( $this->get_post_terms_urls( $post ) as $url ) {
+		$urls = $this->get_post_terms_urls( $post );
+		foreach ( $urls as $url ) {
 			$this->purge_url( $url );
 		}
-
+		/**
+		 * Action to preload urls after cleaning cache.
+		 *
+		 * @param array urls to preload.
+		 */
+		do_action( 'rocket_after_clean_terms', $urls );
 	}
 
 	/**
@@ -178,9 +188,21 @@ class Purge {
 	private function get_post_terms_urls( WP_Post $post ) {
 		$urls       = [];
 		$taxonomies = get_object_taxonomies( get_post_type( $post->ID ), 'objects' );
+		/**
+		 * Filters the taxonomies excluded from post purge
+		 *
+		 * @since 3.9.1
+		 *
+		 * @param array $excluded_taxonomies Array of excluded taxonomies names.
+		 */
+		$excluded_taxonomies = apply_filters( 'rocket_exclude_post_taxonomy', [] );
 
 		foreach ( $taxonomies as $taxonomy ) {
-			if ( ! $taxonomy->public || 'product_shipping_class' === $taxonomy->name ) {
+			if (
+				! $taxonomy->public
+				||
+				in_array( $taxonomy->name, $excluded_taxonomies, true )
+			) {
 				continue;
 			}
 
@@ -211,6 +233,10 @@ class Purge {
 				}
 			}
 		}
+
+		// Remove entries with empty values in array.
+		$urls = array_filter( $urls, 'is_string' );
+
 		/**
 		 * Filter the list of taxonomies URLs
 		 *

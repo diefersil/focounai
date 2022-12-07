@@ -127,9 +127,11 @@ function rocket_validate_css( $file ) {
  * @return bool
  */
 function rocket_is_internal_file( $file ) {
-	
-	return true;
-	
+	$file_host = wp_parse_url( rocket_add_url_protocol( $file ), PHP_URL_HOST );
+
+	if ( empty( $file_host ) ) {
+		return false;
+	}
 
 	/**
 	 * Filters the allowed hosts for optimization
@@ -185,6 +187,7 @@ function rocket_sanitize_textarea_field( $field, $value ) {
 		'exclude_lazyload'           => [ 'sanitize_text_field' ],
 		'delay_js_exclusions'        => [ 'sanitize_text_field', 'rocket_clean_wildcards' ],
 		'remove_unused_css_safelist' => [ 'sanitize_text_field', 'rocket_clean_wildcards' ],
+		'preload_excluded_uri'       => [ 'sanitize_text_field', 'rocket_clean_wildcards' ],
 	];
 
 	if ( ! isset( $fields[ $field ] ) ) {
