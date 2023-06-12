@@ -99,7 +99,7 @@ body, h1,h2,h3,h4,h5,h6,p,div {
     border-top-left-radius: 10px;
 }
 
-@media(max-width:){
+@media(max-width:600px){
     .home .car-image img {
         min-height:inherit !important;
     }
