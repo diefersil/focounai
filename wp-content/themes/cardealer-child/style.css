@@ -52,11 +52,6 @@ body, h1,h2,h3,h4,h5,h6,p,div {
 }
 
 
-@media (max-width: 600px){
-    .slider-content.vehicle-search-section .search-tab .cardealer-tabcontent {
-        padding-top: -10px !important;
-    }
-}
 
 @media (min-width: 1200px){
     .home-search .col-lg-4 {
