@@ -1,4 +1,6 @@
 <?php
+define( 'WP_CACHE', true ); // Added by WP Rocket
+
 /**
  * As configurações básicas do WordPress
  *
@@ -20,7 +22,7 @@
 
 // ** Configurações do MySQL - Você pode pegar estas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define( 'DB_NAME', 'focoteste' );
+define( 'DB_NAME', 'foco' );
 
 /** Usuário do banco de dados MySQL */
 define( 'DB_USER', 'root' );

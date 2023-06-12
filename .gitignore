@@ -22,3 +22,7 @@ wp-config.php
 /.htaccess
 
 # End of https://www.toptal.com/developers/gitignore/api/wordpress
+wp-content/advanced-cache.php
+/wp-config.php
+wp-content/wp-rocket-config/index.html
+wp-content/wp-rocket-config/localhost.xampp.foco.php
