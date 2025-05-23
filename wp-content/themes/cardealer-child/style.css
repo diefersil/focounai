@@ -89,7 +89,9 @@ body, h1,h2,h3,h4,h5,h6,p,div {
 .home .car-item .car-content {
     padding: 10px 20px 25px 30px !important;
     text-align: left;
-    border: bottom radius 10px; ;
+    border: bottom radius 10px; 
+     min-height: 230px !important;
+    
 }
 
 .home .car-image img {
