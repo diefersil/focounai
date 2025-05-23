@@ -8,6 +8,8 @@ add_action( 'wp_enqueue_scripts', function() {
     }
 }, 500 );
 
+add_filter( 'auto_update_plugin', '__return_false' );
+
 
 /*if(is_front_page()){
     add_filter( 'the_title', function( $title ){
